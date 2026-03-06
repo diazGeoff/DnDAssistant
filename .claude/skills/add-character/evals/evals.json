@@ -1,0 +1,23 @@
+{
+  "skill_name": "add-character",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I want to add my character. He's a level 5 half-elf warlock named Kaelen Duskwhisper. His patron is the Archfey. Stats are STR 8, DEX 14, CON 13, INT 12, WIS 10, CHA 18. AC is 14 with studded leather, HP is 38, speed 30ft. He's got proficiency in Arcana, Deception, Intimidation, and Persuasion. Saving throws are WIS and CHA. Proficiency bonus +3.",
+      "expected_output": "A profile.md file created at characters/kaelen-duskwhisper/profile.md with all provided stats correctly filled in, appropriate sections for a warlock (including spellcasting), and missing fields marked with dashes.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Add an NPC for me — a shady goblin merchant named Grix. He runs a black market stall in the undercity. Not sure about his exact stats but he's probably pretty weak in a fight, maybe AC 12 and like 15 HP. He's sneaky though, high DEX.",
+      "expected_output": "A lighter NPC profile at characters/grix/profile.md with the provided info filled in, combat stats estimated from what was given, and remaining fields as dashes. Should be a shorter profile since it's an NPC.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Hey can you create my new character? She's a dwarf cleric named Brunhild Ironforge, level 3, Life domain. I'll give you her stats: STR 14, DEX 10, CON 16, INT 8, WIS 17, CHA 12. She wears chain mail (AC 16 with shield) and carries a warhammer. Max HP is 27, hit dice 3d8. Proficiency bonus +2, saves WIS and CHA. She's got proficiency in Medicine, Religion, Insight, and History. For spells she always has Bless, Cure Wounds, and Healing Word prepared plus Shield of Faith from her domain. Cantrips are Sacred Flame and Spare the Dying.",
+      "expected_output": "A full PC profile at characters/brunhild-ironforge/profile.md with all stats, equipment (chain mail, shield, warhammer), spellcasting section filled in with her prepared spells and cantrips, and correct Life domain class features.",
+      "files": []
+    }
+  ]
+}

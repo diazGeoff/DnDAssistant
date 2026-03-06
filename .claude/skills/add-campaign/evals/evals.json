@@ -1,0 +1,23 @@
+{
+  "skill_name": "add-campaign",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I'm joining a Curse of Strahd game. DM is Mike, I'm playing Rytlock Brimstone. We play every Friday at 7pm online on Roll20. It's 5e.",
+      "expected_output": "A campaign.md at campaigns/curse-of-strahd/campaign.md with all provided details filled in, status Active, character linked to characters/rytlock-brimstone/profile.md, and remaining sections with dashes.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Start a new campaign called 'The Lost Mines'. I don't have many details yet, just that my friend Dave is DMing and we're starting next week.",
+      "expected_output": "A minimal campaign.md at campaigns/the-lost-mines/campaign.md with name, DM (Dave), status Active, and everything else as dashes. Should be quick and not ask too many questions.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Add a campaign — it's a homebrew world called Ashenmoor. We're playing 5e, DM is Sarah. My character is Rytlock. The story so far: we started as mercenaries hired to investigate disappearances in a mining town called Grimhollow. Turns out there's a cult of Orcus operating in the mines. We've cleared the first level of the mine but there's more below. Key NPCs: Mayor Hendricks (quest giver, suspicious), Kira the barkeep (friendly, gave us info), and a dwarf miner named Torbin who survived an attack.",
+      "expected_output": "A rich campaign.md at campaigns/ashenmoor/campaign.md with story arc, location details for Grimhollow and the mines, all 3 NPCs listed, an active quest about the cult/mines, and character linked to Rytlock.",
+      "files": []
+    }
+  ]
+}
