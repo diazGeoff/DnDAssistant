@@ -1,11 +1,11 @@
 ---
 name: add-campaign
-description: Use this skill whenever the user wants to create, start, or register a new D&D campaign. Triggers on phrases like "new campaign", "start a campaign", "add a campaign", "create campaign", "set up a campaign", or when the user describes a new game they're joining. Also use when the user wants to update a campaign's status (mark as completed, on hold, abandoned) or link a character to a campaign.
+description: Use this skill whenever the user wants to create, start, or register a new D&D campaign. Triggers on phrases like "new campaign", "start a campaign", "add a campaign", "create campaign", "set up a campaign", or when the user describes a new game they're joining. Also use when the user wants to update a campaign's status (mark as completed, on hold, abandoned). This skill only handles campaign details — to add a character to a campaign, use the join-campaign skill.
 ---
 
 # Add Campaign
 
-Create and store a D&D campaign profile. Each campaign gets its own subfolder under `campaigns/` with a `campaign.md` file that tracks the game's key details, active character, story, map, and status. Designed for quick setup so you can get a campaign registered fast and fill in details over time.
+Create and store a D&D campaign profile. Each campaign gets its own subfolder under `campaigns/` with a `campaign.md` file that tracks the game's key details, story, map, and status. Designed for quick setup so you can get a campaign registered fast and fill in details over time. Character instantiation is handled separately by the join-campaign skill.
 
 ## Workflow
 
@@ -16,7 +16,6 @@ Ask the user for the core info. Keep it conversational — they might not have e
 **Required (or close to it):**
 - Campaign name
 - DM name
-- Which character is being played (link to existing character in `characters/` if available)
 
 **Good to have:**
 - Setting / world (e.g., "Forgotten Realms", "homebrew world called Erathis")
@@ -49,7 +48,6 @@ Ask what they know so far about the campaign's story and world. This section gro
 > **DM:** [DM Name]
 > **Setting:** [World / Setting]
 > **Edition:** [Edition]
-> **Character:** [Character Name] → `characters/<character-folder>/profile.md`
 > **Schedule:** [When you play]
 > **Format:** [In-person / Online / Platform]
 
@@ -89,9 +87,9 @@ Ask what they know so far about the campaign's story and world. This section gro
 
 ## Session Log
 
-| # | Date | Title | Notes File |
-|---|------|-------|------------|
-| 1 |      |       |            |
+| # | Date | Title | Notes |
+|---|------|-------|-------|
+| 1 |      |       | [notes](sessions/session-01.md) |
 
 ## Notes
 
@@ -109,12 +107,6 @@ Campaigns have one of these statuses:
 
 When the user wants to change a campaign's status, update the Status field in `campaign.md` and add a note at the bottom with when and why.
 
-## Linking Characters
-
-The Character field in the campaign header should point to the character's profile with a relative path. If the character already exists in `characters/`, link to it. If not, mention that they can use the add-character skill to create the profile.
-
-A character can be in multiple campaigns (different tables, same character) and a campaign can have the character swapped out if the user retires one and brings in another — just update the Character field.
-
 ## Campaign Folder Structure
 
 Over time a campaign folder might grow to include:
@@ -122,6 +114,7 @@ Over time a campaign folder might grow to include:
 campaigns/
   curse-of-strahd/
     campaign.md        — Main campaign file
+    sessions/          — Per-session notes (session-01.md, etc.)
     maps/              — Map images or notes
     handouts/          — DM handouts, letters, puzzles
 ```

@@ -4,7 +4,6 @@
 > **DM:** Toby
 > **Setting:** Forgotten Realms — Dessarin Valley
 > **Edition:** 5e
-> **Character:** Rytlock Brimstone → `characters/rytlock-brimstone/profile.md`
 > **Schedule:** —
 > **Format:** —
 
@@ -32,7 +31,7 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
 —
 
 ### Map Notes
-—
+- **Dessarin Valley (regional):** [map](maps/Dessarin_Valley-5e.webp) — 1 hex = 4 miles
 
 ### Factions
 —
@@ -41,11 +40,40 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
 
 —
 
+## Character States
+
+### Rytlock Brimstone
+
+> `characters/rytlock-brimstone/profile.md`
+
+#### Resources
+
+| Resource   | Current | Max  |
+|------------|---------|------|
+| HP         | 28      | 28   |
+| Temp HP    | 0       | —    |
+| Hit Dice   | 3d10    | 3d10 |
+
+#### Currency
+
+| PP | GP | EP | SP | CP |
+|----|----|----|----|----|
+| —  | 47 | —  | —  | —  |
+
+#### Inventory (campaign-acquired)
+
+- Crossbow bolts
+- Dungeoneer's pack
+
+#### Conditions & Temporary Effects
+
+- None
+
 ## Session Log
 
-| # | Date | Title | Notes File |
-|---|------|-------|------------|
-| 1 |      |       |            |
+| # | Date | Title | Notes |
+|---|------|-------|-------|
+| 1 |      |       | [notes](sessions/session-01.md) |
 
 ## Notes
 

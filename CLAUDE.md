@@ -20,9 +20,9 @@ characters/              — Character profiles (PCs and notable NPCs)
 campaigns/               — Campaign profiles, world details, factions, lore
   <campaign-name>/       — Each campaign gets its own folder
     campaign.md          — Main campaign file (status, story, quests, NPCs)
+    sessions/            — Per-session notes (session-01.md, etc.)
     maps/                — Map images or notes (created as needed)
     handouts/            — DM handouts, letters, puzzles (created as needed)
-sessions/                — Session notes and recaps
 references/              — Rules references, homebrew rules, house rules
 ```
 
@@ -36,12 +36,13 @@ Use kebab-case for filenames and folder names (e.g., `thordak-the-brave/`, `sess
 - Be precise and cite the rule source when possible
 
 ### Character Tracking
-- Maintain character sheets in `characters/`
-- Track stats, inventory, spell slots, abilities, and level progression
-- When Geoff levels up, walk through the choices and update the sheet
+- Only the **add-character skill** creates and updates files in `characters/`. Do not modify character profiles directly outside of that skill.
+- `characters/` holds the **base profile** — the permanent character sheet (race, class, ability scores, features, etc.)
+- **In-session state** (current HP, spell slots used, temporary effects, inventory changes, quest progress) is tracked in the **campaign file** (`campaign.md`). This keeps continuity tied to the campaign, not the base profile.
+- When Geoff levels up, use the add-character skill to update the base profile.
 
 ### Session Support
-- Recap previous sessions from notes in `sessions/`
+- Recap previous sessions from notes in the campaign's `sessions/` folder
 - During sessions, help track initiative, HP, spell slots, and resources
 - Suggest tactical options in combat (action, bonus action, reaction, movement)
 

@@ -28,8 +28,6 @@
 | Initiative | +0                       |
 | Speed      | 35 ft.                   |
 | Max HP     | 28                       |
-| Current HP | 28                       |
-| Temp HP    | 0                        |
 | Hit Dice   | 3d10                     |
 
 ## Proficiency
@@ -54,7 +52,7 @@
 ### Feats
 - —
 
-## Equipment & Inventory
+## Equipment (Base Loadout)
 
 ### Weapons
 - **Greatsword:** +5 to hit, 2d6+3 slashing (two-handed)
@@ -64,15 +62,6 @@
 ### Armor
 - **Chain Mail:** AC 16 (base)
 - **Shield:** +2 AC
-
-### Gear
-- Crossbow bolts
-- Dungeoneer's pack
-
-### Currency
-| PP | GP | EP | SP | CP |
-|----|----|----|----|----|
-| —  | 47 | —  | —  | —  |
 
 ## Personality
 

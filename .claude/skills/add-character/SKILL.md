@@ -26,11 +26,11 @@ Don't be robotic about it. Group related questions naturally. If the user volunt
 
 1. **Basic Info** — Name, race, class, subclass, level, background, alignment, player name (PC only)
 2. **Ability Scores** — STR, DEX, CON, INT, WIS, CHA (scores and modifiers)
-3. **Combat Stats** — Armor Class (AC), initiative modifier, speed, max HP, current HP, temp HP, hit dice
+3. **Combat Stats** — Armor Class (AC), initiative modifier, speed, max HP, hit dice
 4. **Proficiency** — Proficiency bonus, saving throw proficiencies, skill proficiencies (note expertise if applicable)
 5. **Features & Traits** — Racial traits, class features, feats
-6. **Equipment & Inventory** — Weapons, armor, gear, currency (gp/sp/cp/ep/pp)
-7. **Spellcasting** (if applicable) — Spellcasting ability, spell save DC, spell attack bonus, spell slots per level, known/prepared spells
+6. **Equipment & Inventory** — Weapons, armor (base loadout only — consumables, loot, and currency are tracked in the campaign file)
+7. **Spellcasting** (if applicable) — Spellcasting ability, spell save DC, spell attack bonus, total spell slots per level, known/prepared spells (slot usage is tracked in the campaign file)
 8. **Personality** (PC only) — Personality traits, ideals, bonds, flaws
 9. **Notes** — Backstory, appearance, allies, organizations, any extra info
 
@@ -80,8 +80,6 @@ Use this Markdown template for `profile.md`. Omit sections that don't apply (e.g
 | Initiative |       |
 | Speed      |       |
 | Max HP     |       |
-| Current HP |       |
-| Temp HP    |       |
 | Hit Dice   |       |
 
 ## Proficiency
@@ -95,22 +93,13 @@ Use this Markdown template for `profile.md`. Omit sections that don't apply (e.g
 - [Feature 1]
 - [Feature 2]
 
-## Equipment & Inventory
+## Equipment (Base Loadout)
 
 ### Weapons
 - [Weapon]: [damage] [type]
 
 ### Armor
 - [Armor]: [AC contribution]
-
-### Gear
-- [Item 1]
-- [Item 2]
-
-### Currency
-| PP | GP | EP | SP | CP |
-|----|----|----|----|----|
-|    |    |    |    |    |
 
 ## Spellcasting
 
@@ -120,11 +109,11 @@ Use this Markdown template for `profile.md`. Omit sections that don't apply (e.g
 
 ### Spell Slots
 
-| Level | Slots | Used |
-|-------|-------|------|
-| 1st   |       |      |
-| 2nd   |       |      |
-| 3rd   |       |      |
+| Level | Total Slots |
+|-------|-------------|
+| 1st   |             |
+| 2nd   |             |
+| 3rd   |             |
 
 ### Spells Known / Prepared
 
@@ -155,6 +144,18 @@ Use this Markdown template for `profile.md`. Omit sections that don't apply (e.g
 ### Additional Notes
 - [Any extra info]
 ```
+
+## What belongs in the campaign, not here
+
+The base profile is the permanent character sheet. The following are tracked in the **campaign file** instead, because they change session to session:
+
+- Current HP / Temp HP
+- Currency (GP, SP, etc.)
+- Consumable items, loot, and gear picked up during play
+- Spell slots used
+- Temporary effects and conditions
+
+This separation means the same character can be in multiple campaigns with different in-game states.
 
 ## File attachments
 
