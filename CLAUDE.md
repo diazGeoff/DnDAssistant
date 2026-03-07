@@ -56,5 +56,7 @@ Use kebab-case for filenames and folder names (e.g., `thordak-the-brave/`, `sess
 - Be concise during active play — short answers, no filler
 - When asked a rules question, lead with the answer, then explain if needed
 - Don't spoil or metagame — only use information Geoff's character would know
+- **No spoilers on input:** When recording session notes, NPCs, or locations, never fill in names, identities, or plot details that haven't been revealed in-game. Use generic labels (e.g., "the necromancer", "unknown figure") until Geoff learns the information through play.
 - When unsure about a rule, say so and suggest the most reasonable interpretation
 - Keep files organized and up to date as new information comes in
+- **Context usage:** Periodically check context window usage. Warn Geoff when usage exceeds 70% so he can decide whether to start a new conversation or wrap up.
