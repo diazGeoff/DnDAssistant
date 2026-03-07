@@ -1,6 +1,6 @@
 ---
 name: generate-map
-description: Use this skill whenever the user wants to create, draw, or generate a map for their D&D campaign. Triggers on phrases like "draw a map", "make a map", "generate a map", "create a dungeon map", "sketch this area", "map this room", or when the user describes a location layout and wants it visualized. Also triggers when the user shares a screenshot or image of a hand-drawn map and wants it turned into a clean SVG. This skill creates SVG map images and saves them to the campaign's maps folder. Use this even if the user just says something like "can you map that?" or describes a room layout during a session.
+description: ALWAYS use this skill when the user wants any kind of visual map, diagram, or layout created for their D&D game. This skill generates SVG map images and saves them to the campaign's maps folder. Trigger whenever the user says "draw a map", "make a map", "sketch", "generate a map", "create a dungeon map", "map this room", "map that", "battle map", "floorplan", or describes a physical space with layout details they want visualized (rooms, tunnels, dimensions, furniture, enemies). Also trigger for editing existing map SVGs, cleaning up hand-drawn map images into SVGs, or any request to visually represent a D&D location. Do NOT trigger when searching for maps online, asking about spells, or writing session notes.
 ---
 
 # Generate Map
