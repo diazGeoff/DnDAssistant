@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="850" viewBox="0 0 900 850">
+  <defs>
+    <radialGradient id="sinkholeGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#050302"/>
+      <stop offset="40%" stop-color="#0f0805"/>
+      <stop offset="75%" stop-color="#1e1208"/>
+      <stop offset="100%" stop-color="#2e1a0c"/>
+    </radialGradient>
+    <radialGradient id="sinkholeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="groundGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5c7a3e"/>
+      <stop offset="50%" stop-color="#4e6b34"/>
+      <stop offset="100%" stop-color="#3d5528"/>
+    </linearGradient>
+    <filter id="buildingShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- GROUND -->
+  <rect width="900" height="850" fill="url(#groundGrad)"/>
+  <ellipse cx="120" cy="200" rx="90" ry="55" fill="#617f42" opacity="0.5"/>
+  <ellipse cx="790" cy="145" rx="75" ry="50" fill="#617f42" opacity="0.45"/>
+  <ellipse cx="95" cy="660" rx="95" ry="65" fill="#617f42" opacity="0.5"/>
+  <ellipse cx="830" cy="685" rx="80" ry="55" fill="#617f42" opacity="0.45"/>
+  <ellipse cx="450" cy="75" rx="110" ry="42" fill="#617f42" opacity="0.4"/>
+  <ellipse cx="450" cy="785" rx="130" ry="48" fill="#617f42" opacity="0.4"/>
+
+  <!-- ROADS -->
+  <path d="M 75,115 C 155,165 230,230 295,310 C 318,340 348,372 368,396" fill="none" stroke="#c8a870" stroke-width="30" stroke-linecap="round"/>
+  <path d="M 75,115 C 155,165 230,230 295,310 C 318,340 348,372 368,396" fill="none" stroke="#b89860" stroke-width="22" stroke-linecap="round" opacity="0.4"/>
+  <path d="M 532,452 C 568,488 622,540 678,598 C 738,658 800,715 868,745" fill="none" stroke="#c8a870" stroke-width="30" stroke-linecap="round"/>
+  <path d="M 532,452 C 568,488 622,540 678,598 C 738,658 800,715 868,745" fill="none" stroke="#b89860" stroke-width="22" stroke-linecap="round" opacity="0.4"/>
+  <path d="M 828,95 C 728,150 648,225 578,315 C 548,355 518,390 502,415" fill="none" stroke="#c8a870" stroke-width="24" stroke-linecap="round"/>
+  <path d="M 828,95 C 728,150 648,225 578,315 C 548,355 518,390 502,415" fill="none" stroke="#b89860" stroke-width="18" stroke-linecap="round" opacity="0.4"/>
+  <path d="M 548,436 C 625,428 710,412 812,398" fill="none" stroke="#c8a870" stroke-width="22" stroke-linecap="round"/>
+  <path d="M 472,548 C 482,610 494,668 506,735 C 515,778 524,808 535,845" fill="none" stroke="#c8a870" stroke-width="20" stroke-linecap="round"/>
+  <path d="M 388,442 C 335,455 275,468 218,498 C 176,518 135,550 92,592" fill="none" stroke="#c8a870" stroke-width="18" stroke-linecap="round"/>
+
+  <!-- SINKHOLE DEBRIS ZONE -->
+  <circle cx="450" cy="420" r="172" fill="#8a6840" opacity="0.65"/>
+  <circle cx="450" cy="420" r="158" fill="#7a5a30" opacity="0.75"/>
+  <path d="M 450,268 L 478,272 L 508,264 L 532,278 L 558,298 L 572,310 L 582,295 L 602,322 L 598,348 L 614,364 L 608,384 L 620,406 L 604,420 L 610,444 L 598,464 L 610,486 L 594,506 L 572,516 L 558,532 L 532,546 L 510,558 L 488,563 L 460,572 L 438,574 L 412,563 L 388,552 L 366,540 L 346,524 L 326,508 L 310,488 L 300,466 L 288,444 L 284,420 L 296,400 L 284,380 L 290,356 L 302,334 L 296,314 L 312,294 L 334,280 L 356,268 L 380,262 L 408,264 L 432,265 Z" fill="#9a7a50" opacity="0.92"/>
+
+  <!-- SINKHOLE PIT -->
+  <path d="M 450,290 L 476,293 L 502,286 L 524,300 L 546,320 L 558,310 L 572,332 L 582,356 L 574,374 L 588,392 L 580,412 L 592,432 L 578,452 L 584,474 L 568,492 L 552,506 L 530,520 L 506,530 L 482,536 L 456,542 L 432,540 L 406,528 L 384,516 L 360,498 L 344,480 L 328,458 L 320,434 L 332,412 L 318,392 L 324,368 L 336,346 L 330,326 L 346,306 L 366,292 L 390,280 L 416,276 L 438,280 Z" fill="url(#sinkholeGrad)"/>
+  <ellipse cx="448" cy="412" rx="98" ry="94" fill="#0a0604" opacity="0.92"/>
+  <ellipse cx="446" cy="410" rx="66" ry="62" fill="#050302" opacity="0.97"/>
+  <ellipse cx="449" cy="416" rx="122" ry="118" fill="url(#sinkholeGlow)"/>
+
+  <!-- RUBBLE -->
+  <ellipse cx="338" cy="294" rx="13" ry="9" fill="#6a4e2a" transform="rotate(-22,338,294)"/>
+  <ellipse cx="372" cy="275" rx="9" ry="7" fill="#7a5c35"/>
+  <ellipse cx="422" cy="266" rx="11" ry="7" fill="#6a4e2a" transform="rotate(14,422,266)"/>
+  <ellipse cx="492" cy="270" rx="10" ry="7" fill="#7a5c35"/>
+  <ellipse cx="544" cy="296" rx="12" ry="8" fill="#6a4e2a" transform="rotate(32,544,296)"/>
+  <ellipse cx="578" cy="344" rx="11" ry="7" fill="#7a5c35"/>
+  <ellipse cx="594" cy="400" rx="10" ry="8" fill="#6a4e2a"/>
+  <ellipse cx="588" cy="460" rx="12" ry="7" fill="#7a5c35" transform="rotate(-16,588,460)"/>
+  <ellipse cx="562" cy="516" rx="11" ry="7" fill="#6a4e2a"/>
+  <ellipse cx="512" cy="540" rx="13" ry="7" fill="#7a5c35" transform="rotate(18,512,540)"/>
+  <ellipse cx="456" cy="550" rx="10" ry="7" fill="#6a4e2a"/>
+  <ellipse cx="396" cy="534" rx="11" ry="7" fill="#7a5c35"/>
+  <ellipse cx="344" cy="504" rx="12" ry="8" fill="#6a4e2a" transform="rotate(-26,344,504)"/>
+  <ellipse cx="306" cy="458" rx="10" ry="7" fill="#7a5c35"/>
+  <ellipse cx="296" cy="400" rx="11" ry="9" fill="#6a4e2a"/>
+  <ellipse cx="304" cy="338" rx="10" ry="7" fill="#7a5c35" transform="rotate(12,304,338)"/>
+  <circle cx="358" cy="308" r="4" fill="#5a4020"/>
+  <circle cx="402" cy="273" r="3" fill="#5a4020"/>
+  <circle cx="462" cy="268" r="4" fill="#5a4020"/>
+  <circle cx="524" cy="282" r="3" fill="#5a4020"/>
+  <circle cx="570" cy="318" r="4" fill="#5a4020"/>
+  <circle cx="598" cy="368" r="3" fill="#5a4020"/>
+  <circle cx="604" cy="432" r="4" fill="#5a4020"/>
+  <circle cx="578" cy="494" r="3" fill="#5a4020"/>
+  <circle cx="534" cy="532" r="4" fill="#5a4020"/>
+  <circle cx="470" cy="552" r="3" fill="#5a4020"/>
+  <circle cx="416" cy="546" r="4" fill="#5a4020"/>
+  <circle cx="360" cy="522" r="3" fill="#5a4020"/>
+  <circle cx="318" cy="480" r="4" fill="#5a4020"/>
+  <circle cx="293" cy="430" r="3" fill="#5a4020"/>
+  <circle cx="298" cy="368" r="4" fill="#5a4020"/>
+  <circle cx="316" cy="314" r="3" fill="#5a4020"/>
+
+  <!-- CRACKS -->
+  <line x1="450" y1="284" x2="448" y2="198" stroke="#4a3010" stroke-width="2.5" opacity="0.7"/>
+  <line x1="448" y1="270" x2="428" y2="190" stroke="#4a3010" stroke-width="1.5" opacity="0.5"/>
+  <line x1="582" y1="348" x2="648" y2="290" stroke="#4a3010" stroke-width="2.5" opacity="0.7"/>
+  <line x1="596" y1="400" x2="672" y2="394" stroke="#4a3010" stroke-width="2.5" opacity="0.7"/>
+  <line x1="562" y1="516" x2="620" y2="580" stroke="#4a3010" stroke-width="2" opacity="0.65"/>
+  <line x1="456" y1="550" x2="454" y2="632" stroke="#4a3010" stroke-width="2.5" opacity="0.7"/>
+  <line x1="340" y1="504" x2="275" y2="562" stroke="#4a3010" stroke-width="2" opacity="0.65"/>
+  <line x1="294" y1="420" x2="210" y2="416" stroke="#4a3010" stroke-width="2.5" opacity="0.7"/>
+  <line x1="306" y1="338" x2="240" y2="276" stroke="#4a3010" stroke-width="2" opacity="0.65"/>
+  <line x1="574" y1="316" x2="614" y2="274" stroke="#4a3010" stroke-width="1.5" opacity="0.45"/>
+  <line x1="398" y1="264" x2="380" y2="205" stroke="#4a3010" stroke-width="1.5" opacity="0.45"/>
+
+  <!-- BROKEN FENCE NEAR SINKHOLE -->
+  <rect x="335" y="352" width="4" height="22" fill="#8b6040" transform="rotate(-28,337,363)"/>
+  <rect x="352" y="346" width="4" height="16" fill="#8b6040" transform="rotate(-10,354,354)"/>
+  <line x1="337" y1="357" x2="353" y2="352" stroke="#8b6040" stroke-width="2"/>
+
+  <!-- TREES NW -->
+  <circle cx="78" cy="182" r="22" fill="#1a4a18" opacity="0.9"/>
+  <circle cx="74" cy="178" r="17" fill="#2a5c28"/>
+  <circle cx="114" cy="158" r="20" fill="#1a4a18" opacity="0.9"/>
+  <circle cx="110" cy="153" r="15" fill="#2a5c28"/>
+  <circle cx="58" cy="244" r="19" fill="#1a4a18" opacity="0.9"/>
+  <circle cx="55" cy="239" r="15" fill="#2a5c28"/>
+  <circle cx="143" cy="98" r="18" fill="#1a4a18" opacity="0.9"/>
+  <circle cx="180" cy="112" r="16" fill="#2a5c28"/>
+  <!-- TREES NE -->
+  <circle cx="782" cy="98" r="20" fill="#1a4a18" opacity="0.9"/>
+  <circle cx="779" cy="94" r="15" fill="#2a5c28"/>
+  <circle cx="824" cy="118" r="18" fill="#1a4a18" opacity="0.9"/>
+  <circle cx="844" cy="88" r="16" fill="#2a5c28"/>
+  <circle cx="758" cy="78" r="14" fill="#2a5c28"/>
+  <!-- TREES SW -->
+  <circle cx="118" cy="702" r="22" fill="#1a4a18" opacity="0.9"/>
+  <circle cx="115" cy="698" r="17" fill="#2a5c28"/>
+  <circle cx="78" cy="734" r="20" fill="#1a4a18" opacity="0.9"/>
+  <circle cx="154" cy="722" r="17" fill="#2a5c28"/>
+  <circle cx="158" cy="762" r="16" fill="#1a4a18" opacity="0.85"/>
+  <!-- TREES SE -->
+  <circle cx="804" cy="704" r="20" fill="#1a4a18" opacity="0.9"/>
+  <circle cx="801" cy="699" r="15" fill="#2a5c28"/>
+  <circle cx="844" cy="724" r="18" fill="#1a4a18" opacity="0.9"/>
+  <circle cx="838" cy="762" r="15" fill="#2a5c28"/>
+  <circle cx="772" cy="752" r="14" fill="#2a5c28"/>
+  <!-- TREES scattered -->
+  <circle cx="198" cy="604" r="18" fill="#1a4a18" opacity="0.85"/>
+  <circle cx="228" cy="624" r="14" fill="#2a5c28"/>
+  <circle cx="702" cy="182" r="18" fill="#1a4a18" opacity="0.85"/>
+  <circle cx="728" cy="166" r="13" fill="#2a5c28"/>
+  <circle cx="652" cy="654" r="16" fill="#2a5c28" opacity="0.85"/>
+  <circle cx="348" cy="88" r="15" fill="#2a5c28" opacity="0.8"/>
+  <circle cx="488" cy="794" r="16" fill="#1a4a18" opacity="0.8"/>
+
+  <!-- THE SWINGING SWORD (Inn) - NW -->
+  <rect x="148" y="298" width="78" height="56" rx="2" fill="#8b4a2a" filter="url(#buildingShadow)"/>
+  <rect x="148" y="298" width="78" height="11" fill="#6a3820"/>
+  <rect x="158" y="310" width="12" height="15" fill="#c8a060"/>
+  <rect x="178" y="310" width="12" height="15" fill="#c8a060"/>
+  <rect x="200" y="312" width="9" height="26" fill="#4a2a10"/>
+  <line x1="200" y1="298" x2="200" y2="290" stroke="#7a5530" stroke-width="2"/>
+  <rect x="192" y="285" width="16" height="8" rx="1" fill="#6a4520"/>
+  <text x="187" y="369" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#f5e8c0">The Swinging</text>
+  <text x="187" y="382" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#f5e8c0">Sword (Inn)</text>
+
+  <!-- GENERAL STORE - NE -->
+  <rect x="558" y="152" width="72" height="52" rx="2" fill="#9a6a3a" filter="url(#buildingShadow)"/>
+  <rect x="558" y="152" width="72" height="10" fill="#7a5228"/>
+  <rect x="568" y="163" width="11" height="14" fill="#c8a060"/>
+  <rect x="588" y="163" width="11" height="14" fill="#c8a060"/>
+  <rect x="610" y="165" width="8" height="22" fill="#4a2a10"/>
+  <text x="594" y="219" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#f5e8c0">General Store</text>
+
+  <!-- ALLFAITHS SHRINE - SE -->
+  <rect x="618" y="598" width="62" height="62" rx="3" fill="#b2b2a2" filter="url(#buildingShadow)"/>
+  <polygon points="618,598 680,598 649,564" fill="#929282"/>
+  <rect x="634" y="618" width="9" height="22" fill="#6a6a58"/>
+  <rect x="651" y="618" width="9" height="22" fill="#6a6a58"/>
+  <rect x="624" y="608" width="9" height="11" fill="#d4c8a0"/>
+  <rect x="662" y="608" width="9" height="11" fill="#d4c8a0"/>
+  <line x1="649" y1="556" x2="649" y2="546" stroke="#d4c890" stroke-width="2.5"/>
+  <line x1="644" y1="551" x2="654" y2="551" stroke="#d4c890" stroke-width="2.5"/>
+  <text x="649" y="678" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#f5e8c0">Allfaiths Shrine</text>
+
+  <!-- STABLES - E -->
+  <rect x="718" y="376" width="84" height="58" rx="2" fill="#7a5a2a" filter="url(#buildingShadow)"/>
+  <rect x="718" y="376" width="84" height="11" fill="#5a4018"/>
+  <rect x="738" y="388" width="20" height="30" fill="#4a3010"/>
+  <rect x="762" y="388" width="20" height="30" fill="#4a3010"/>
+  <line x1="728" y1="440" x2="800" y2="440" stroke="#8a6535" stroke-width="2"/>
+  <line x1="728" y1="450" x2="800" y2="450" stroke="#8a6535" stroke-width="2"/>
+  <line x1="728" y1="438" x2="728" y2="456" stroke="#8a6535" stroke-width="2"/>
+  <line x1="764" y1="438" x2="764" y2="456" stroke="#8a6535" stroke-width="2"/>
+  <line x1="800" y1="438" x2="800" y2="456" stroke="#8a6535" stroke-width="2"/>
+  <text x="760" y="476" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#f5e8c0">Stables</text>
+
+  <!-- BLACKSMITH - N -->
+  <rect x="438" y="142" width="62" height="48" rx="2" fill="#6a4a2a" filter="url(#buildingShadow)"/>
+  <rect x="438" y="142" width="62" height="10" fill="#4a3018"/>
+  <rect x="448" y="153" width="10" height="14" fill="#c8a060"/>
+  <rect x="474" y="156" width="8" height="22" fill="#4a2a0a"/>
+  <rect x="488" y="120" width="7" height="22" fill="#5a5a5a"/>
+  <ellipse cx="491" cy="118" rx="6" ry="4" fill="#909090" opacity="0.5"/>
+  <ellipse cx="493" cy="112" rx="5" ry="4" fill="#909090" opacity="0.35"/>
+  <ellipse cx="494" cy="106" rx="4" ry="3" fill="#909090" opacity="0.2"/>
+  <text x="469" y="204" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#f5e8c0">Blacksmith</text>
+
+  <!-- RESIDENCE 1 - SW -->
+  <rect x="132" y="478" width="52" height="42" rx="2" fill="#8a6a3a" filter="url(#buildingShadow)"/>
+  <rect x="132" y="478" width="52" height="9" fill="#6a5028"/>
+  <rect x="142" y="489" width="9" height="12" fill="#c8a060"/>
+  <rect x="164" y="492" width="7" height="18" fill="#4a2a10"/>
+  <text x="158" y="534" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#f5e8c0">Residence</text>
+
+  <!-- RESIDENCE 2 - SW lower -->
+  <rect x="196" y="558" width="52" height="42" rx="2" fill="#8a6a3a" filter="url(#buildingShadow)"/>
+  <rect x="196" y="558" width="52" height="9" fill="#6a5028"/>
+  <rect x="206" y="569" width="9" height="12" fill="#c8a060"/>
+  <rect x="228" y="572" width="7" height="18" fill="#4a2a10"/>
+  <text x="222" y="614" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#f5e8c0">Residence</text>
+
+  <!-- RESIDENCE 3 - N -->
+  <rect x="326" y="148" width="52" height="42" rx="2" fill="#8a6a3a" filter="url(#buildingShadow)"/>
+  <rect x="326" y="148" width="52" height="9" fill="#6a5028"/>
+  <rect x="336" y="159" width="9" height="12" fill="#c8a060"/>
+  <rect x="358" y="162" width="7" height="18" fill="#4a2a10"/>
+  <text x="352" y="204" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#f5e8c0">Residence</text>
+
+  <!-- RESIDENCE 4 - NW -->
+  <rect x="193" y="193" width="58" height="44" rx="2" fill="#8a6a3a" filter="url(#buildingShadow)"/>
+  <rect x="193" y="193" width="58" height="9" fill="#6a5028"/>
+  <rect x="204" y="204" width="9" height="12" fill="#c8a060"/>
+  <rect x="228" y="207" width="7" height="19" fill="#4a2a10"/>
+  <text x="222" y="252" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#f5e8c0">Residence</text>
+
+  <!-- RESIDENCE 5 - S -->
+  <rect x="556" y="712" width="52" height="42" rx="2" fill="#8a6a3a" filter="url(#buildingShadow)"/>
+  <rect x="556" y="712" width="52" height="9" fill="#6a5028"/>
+  <rect x="566" y="723" width="9" height="12" fill="#c8a060"/>
+  <rect x="588" y="726" width="7" height="18" fill="#4a2a10"/>
+  <text x="582" y="768" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#f5e8c0">Residence</text>
+
+  <!-- RESIDENCE 6 - E lower -->
+  <rect x="712" y="540" width="52" height="42" rx="2" fill="#8a6a3a" filter="url(#buildingShadow)"/>
+  <rect x="712" y="540" width="52" height="9" fill="#6a5028"/>
+  <rect x="722" y="551" width="9" height="12" fill="#c8a060"/>
+  <rect x="744" y="554" width="7" height="18" fill="#4a2a10"/>
+  <text x="738" y="596" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#f5e8c0">Residence</text>
+
+  <!-- COLLAPSED BUILDING near sinkhole -->
+  <rect x="290" y="308" width="48" height="36" rx="2" fill="#6a5030" opacity="0.65" filter="url(#buildingShadow)"/>
+  <polygon points="290,308 338,308 328,286 306,292" fill="#4a3820" opacity="0.7"/>
+  <line x1="290" y1="318" x2="338" y2="314" stroke="#3a2810" stroke-width="2.5" opacity="0.6"/>
+  <ellipse cx="300" cy="342" rx="10" ry="5" fill="#5a4020" opacity="0.7" transform="rotate(-15,300,342)"/>
+  <ellipse cx="330" cy="346" rx="8" ry="5" fill="#5a4020" opacity="0.6" transform="rotate(10,330,346)"/>
+  <text x="314" y="362" text-anchor="middle" font-family="Georgia, serif" font-size="9" font-style="italic" fill="#c8b090">collapsed</text>
+
+  <!-- SINKHOLE ANNOTATION -->
+  <line x1="390" y1="418" x2="352" y2="440" stroke="#cc5520" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="350" cy="442" r="2" fill="#cc5520" opacity="0.7"/>
+  <text x="338" y="458" text-anchor="middle" font-family="Georgia, serif" font-size="9" font-style="italic" fill="#cc5520" opacity="0.8">leads below</text>
+
+  <!-- ROAD LABELS -->
+  <text x="88" y="104" font-family="Georgia, serif" font-size="13" font-style="italic" fill="#e8d8a8" transform="rotate(-32,88,104)">Long Road</text>
+  <text x="820" y="386" font-family="Georgia, serif" font-size="12" font-style="italic" fill="#e8d8a8">Cairn Road</text>
+  <text x="858" y="735" font-family="Georgia, serif" font-size="11" font-style="italic" fill="#e8d8a8" transform="rotate(-30,858,735)">Long Road</text>
+
+  <!-- TITLE -->
+  <rect x="10" y="10" width="272" height="64" rx="6" fill="#1a1208" opacity="0.88"/>
+  <rect x="12" y="12" width="268" height="60" rx="5" fill="none" stroke="#8a6a30" stroke-width="1.5"/>
+  <text x="146" y="38" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#f5e0a0">Red Larch</text>
+  <text x="146" y="58" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-style="italic" fill="#cc8040">After the Sinkhole Collapse</text>
+
+  <!-- LEGEND -->
+  <rect x="645" y="754" width="246" height="88" rx="6" fill="#1a1208" opacity="0.88"/>
+  <rect x="647" y="756" width="242" height="84" rx="5" fill="none" stroke="#8a6a30" stroke-width="1.5"/>
+  <text x="768" y="772" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#f5e0a0">Legend</text>
+  <rect x="656" y="778" width="13" height="10" fill="#8a6a3a"/>
+  <text x="678" y="788" font-family="Georgia, serif" font-size="10" fill="#e8d8a8">Building</text>
+  <circle cx="662" cy="803" r="7" fill="#050302"/>
+  <circle cx="662" cy="803" r="5" fill="#0a0604"/>
+  <text x="678" y="807" font-family="Georgia, serif" font-size="10" fill="#e8d8a8">Sinkhole (leads underground)</text>
+  <rect x="656" y="816" width="13" height="9" fill="#6a5030" opacity="0.7"/>
+  <line x1="656" y1="817" x2="669" y2="825" stroke="#3a2810" stroke-width="1.5"/>
+  <text x="678" y="825" font-family="Georgia, serif" font-size="10" fill="#e8d8a8">Collapsed / Damaged</text>
+
+  <!-- NORTH ARROW -->
+  <g transform="translate(852,58)">
+    <polygon points="0,-22 6,2 0,-4 -6,2" fill="#f5e0a0"/>
+    <polygon points="0,-4 6,2 0,12 -6,2" fill="#8a6a30"/>
+    <text x="0" y="-26" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#f5e0a0">N</text>
+  </g>
+
+  <!-- SCALE BAR -->
+  <g transform="translate(28,804)">
+    <rect x="0" y="-4" width="100" height="8" fill="#1a1208" opacity="0.5" rx="2"/>
+    <rect x="0" y="-3" width="50" height="6" fill="#c8a870"/>
+    <rect x="50" y="-3" width="50" height="6" fill="#f5e0a0"/>
+    <line x1="0" y1="-5" x2="0" y2="5" stroke="#e8d8a8" stroke-width="2"/>
+    <line x1="50" y1="-4" x2="50" y2="4" stroke="#e8d8a8" stroke-width="1.5"/>
+    <line x1="100" y1="-5" x2="100" y2="5" stroke="#e8d8a8" stroke-width="2"/>
+    <text x="0" y="18" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#e8d8a8">0</text>
+    <text x="50" y="18" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#e8d8a8">150 ft</text>
+    <text x="100" y="18" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#e8d8a8">300 ft</text>
+  </g>
+
+  <!-- CAPTION -->
+  <text x="450" y="842" text-anchor="middle" font-family="Georgia, serif" font-size="10" font-style="italic" fill="#8a7050">Princes of the Apocalypse — Red Larch (post-earthquake, Session 2)</text>
+</svg>

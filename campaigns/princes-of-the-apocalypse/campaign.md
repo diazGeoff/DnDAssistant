@@ -37,6 +37,7 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
 
 ### Map Notes
 - **Red Larch (town):** [map](maps/Red_Larch.webp)
+- **Red Larch (sinkhole):** [map](maps/red-larch-sinkhole.svg) — post-earthquake collapse, Session 2
 - **Red Larch (surroundings):** [map](maps/Red_larch_surroundings.jpg)
 - **Lance Rock (Necromancer's Cave):** [map](maps/necromancers-cave.webp)
 - **Dessarin Valley (regional):** [map](maps/Dessarin_Valley-5e.webp) — 1 hex = 4 miles
@@ -78,6 +79,17 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
 #### Conditions & Temporary Effects
 
 - None
+
+## Party Loot & Shared Items
+
+### Loot
+- **Wand** (unidentified) — held by the party druid. Dropped by the Lord of Lance Rock.
+
+### Purchases
+- **Cart and donkey** — bought in Red Larch after clearing Lance Rock.
+
+### Quest Items / Clues
+- **Eye-shaped symbol/display** — held by the party ranger for investigation. Found in the back room of Lance Rock.
 
 ## Session Log
 

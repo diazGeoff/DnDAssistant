@@ -46,6 +46,15 @@ Use kebab-case for filenames and folder names (e.g., `thordak-the-brave/`, `sess
 - During sessions, help track initiative, HP, spell slots, and resources
 - Suggest tactical options in combat (action, bonus action, reaction, movement)
 
+### Item & Loot Tracking
+Whenever an item is explicitly looted, purchased, or acquired by Geoff or any party member (as noted in session notes or mentioned in conversation), log it in the campaign file under `## Party Loot & Shared Items` using these categories:
+
+- **Loot** — items dropped by enemies or found in the environment
+- **Purchases** — items bought by the party
+- **Quest Items / Clues** — items held for investigation or story purposes
+
+Each entry should note: what it is, who holds it, and where it came from. Update this section proactively whenever new items are mentioned.
+
 ### Story & Roleplay
 - Track NPCs, factions, quests, and plot threads in `campaigns/`
 - Generate NPC ideas, dialogue, or plot theories when asked

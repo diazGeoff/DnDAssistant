@@ -19,7 +19,7 @@
 - Some party members were pinned near the stone slabs by skeleton minions and the golem
 - Split-attack strategy: 2 party members (including the stealthy one) broke through to attack the necromancer directly, while the rest held off the minions
 - **The Lord of Lance Rock was killed** — the flesh golem collapsed when he died, and the remaining skeletons were mopped up
-- **Loot:** The necromancer dropped a **wand**
+- **Loot:** The necromancer dropped a **wand** (currently held by the party druid — identity unknown, needs identifying)
 - Found an **eye-shaped symbol/display** in the back room where the necromancer had fled
 - Returned to **Red Larch** to rest
 - Purchased a **cart and donkey**
