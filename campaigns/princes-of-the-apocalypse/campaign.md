@@ -12,7 +12,7 @@
 ## Story
 
 ### Current Arc
-Investigating four shadowy figures on behalf of Kaylessa, the innkeeper. Cleared Lance Rock — the Lord of Lance Rock (necromancer) is dead. Found a mysterious eye symbol and a wand.
+Investigating four shadowy figures on behalf of Kaylessa. Cleared Lance Rock. An earthquake opened a sinkhole in Red Larch — 2 party members fell in, revealing an unknown underground area.
 
 ### Background
 Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cults devoted to the Princes of Elemental Evil — each harnessing the destructive power of air, earth, fire, and water. Strange occurrences and disappearances point to something sinister lurking beneath the surface of the valley.
@@ -30,6 +30,8 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
 ### Locations
 - **Red Larch** — Small town in the Dessarin Valley. Current base of operations.
   - **The Swinging Sword** — Inn where the party is staying
+  - **Shrine** — Visited to ask about the eye symbol
+  - **Sinkhole** — Opened by earthquake. Leads to an unknown underground area.
 - **Haunted Tombs** — Outside Red Larch. Guarded by a ghost. Contains a table with 3 rusty figures: a circle, a long one, and a box (possibly indicating missing items).
 - **Lance Rock** — Cave system outside Red Larch. Cleared. Former lair of the Lord of Lance Rock (necromancer, defeated). Contains stone slabs with bodies, and a back room with an eye-shaped symbol.
 
@@ -45,6 +47,7 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
 ## NPCs
 
 - **Kaylessa** — Innkeeper in Red Larch. Sent the party a letter asking them to investigate four shadowy figures.
+- **The Ghost** — Guardian of the Haunted Tombs outside Red Larch. Purpose and identity unknown.
 - **The Lord of Lance Rock** — Necromancer who controlled undead in Lance Rock. Defeated. Real name unknown. Had an eye symbol in his lair.
 
 ## Character States
@@ -82,6 +85,8 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
 |---|------|-------|-------|
 | 1 |      |       | [notes](sessions/session-01.md) |
 | 2 |      |       | [notes](sessions/session-02.md) |
+
+**Next session:** March 8, 2026
 
 ## Notes
 

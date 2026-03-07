@@ -21,11 +21,17 @@
 - **The Lord of Lance Rock was killed** — the flesh golem collapsed when he died, and the remaining skeletons were mopped up
 - **Loot:** The necromancer dropped a **wand**
 - Found an **eye-shaped symbol/display** in the back room where the necromancer had fled
+- Returned to **Red Larch** to rest
+- Purchased a **cart and donkey**
+- Went to the **shrine** to ask about the eye symbol from Lance Rock
+- An **earthquake** hit Red Larch, opening a **sinkhole**
+- **2 party members fell into the sinkhole**
+- At the bottom: an **unknown area/map** — unexplored territory beneath Red Larch
 
 ## Open Questions
 
-- What is the wand? (possibly a Wand of Magic Missiles — need to identify)
-- What does the eye symbol mean? Connected to something larger?
-- What was the Lord of Lance Rock's real purpose here?
-- What's on/in the three stone slabs?
-- Is there another way out of the cave since the entrance collapsed?
+- What is the wand? (need to identify)
+- What does the eye symbol mean?
+- What is the underground area beneath the sinkhole?
+- Are the 2 party members who fell in okay?
+- Is this connected to the four shadowy figures or something else entirely?
