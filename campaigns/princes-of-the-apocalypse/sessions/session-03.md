@@ -96,10 +96,54 @@
   - **Against the walls:** **6 stone slabs** containing **bones**
   - **Investigation check** revealed a **hidden passage** blended into the stone
   - **Ranger** opened the secret door — blocked with **canvas and loose stone**, very **dusty** (hasn't been used in a long time)
+- **Earth Priest** appeared — clinging to a floating stone ~10 ft. up
+  - Cast **Slow** on the party — Rytlock affected (speed halved, can only use action or bonus action, no reactions)
+  - **Thief** used **Id Insinuation** (Psion UA feature) to debuff the priest's saving throw, then landed a spell that broke the priest's concentration — **Slow removed** from Rytlock
+  - Earth priest had a **shield** — high AC made melee attacks difficult
+  - **Kuutar** attacked with **Fire Bolt** and **Mind Sliver** from range
+  - **Rytlock** dropped crossbow, drew greatsword, jumped to reach the priest on the floating stone
+  - Earth priest hit the party with a massive attack — **32 damage** DEX save. Kuutar saved (out of range), **Rytlock failed and went down** (0 HP)
+  - Rytlock passed a **death saving throw**, healed for **5 HP** by a party member
+  - The **earth priest killed himself** — fight over
+  - Rytlock used **Second Wind** (rolled 10 + 3 = 13 HP healed, back to 18 HP)
+  - Looted **4 iron coins from Mirabar** from the earth priest
+- **Returned to the surface** — reported everything to **Kaylessa**
+  - **Kaylessa became mayor of Red Larch** — townspeople rallied to her after the Believers were exposed
+  - **All Believers jailed** — some questioned and sent to **Waterdeep**
+  - Known Believers: **Ilmeth Waelver**, **Baragustas**, **Rotarharterhand**, **Grund**
+  - Party vouched for **Grund** — told Kaylessa he helped them
+  - The underground area is now known as the **Tomb of Moving Stones**
+- **Party leveled up to 4** (profiles not yet updated — ASI/feat, HP, spells TBD)
+- **Kaylessa paid bounty** — **100 GP each** to every party member
+
+## Kuutar's Dream
+
+- Adrift in the **Astral Sea** — a void of stars
+- A **whisper** from everywhere: *"Are you enjoying your time?"*
+- Willpower moves you here, not strength
+- Sees a **familiar scene** — a **pristine castle** and a **destroyed one** (the Trilune Kingdom?)
+- Standing on a **cliff** overlooking a **sea of stars** — the voice again: *"Is that familiar?"*
+- Dream shifts to a **muted Red Larch** — party members visible, drawn toward the **shrine**
+- A symbol pulls her in: a **pair of eyes and a set of stars** — recognized as the **symbol of Selûne**
+- A **female voice**: *"Let us see what you will do with your talent — borrowed talent."*
+- Sees the **4 shadowy figures** from the rumors — always in the peripherals — but now **one has a color: brown** (earth?)
+
+## Rytlock's Dream
+
+- Walking onto a **battlefield** — comrades gathering spoils of war
+- **Dragon fire** everywhere — familiar people **burned to a crisp**, others injured almost beyond recognition
+- Kneels to a fallen ally — one **grabs Rytlock**: *"Did you get it?"* — *"Get what?"* — *"The killing blow."*
+- A **reenactment** appears: Rytlock **hesitated** to deliver the killing blow to a dragon — that hesitation **got another comrade killed**
+- *"You did this to me"* — another scene: the ally **grabs Rytlock's face**, losing energy, **stains his fur with blood** as it dies
+- A **guttural voice**, almost like drowning: *"I expect great things from you"*
+- While kneeling, looks down and sees the **4 shadowy figures** across from him
+- Wakes up
 
 ## Open Questions
 
-- Who are the dead? Townsfolk? Others?
-- What is this underground area?
-- Are the 2 party members who fell in (from Session 2) okay?
-- Is the sinkhole natural or caused by something beneath Red Larch?
+- What is the connection between the **eye symbol** (earth cult) and the **Lord of Lance Rock** (necromancer)?
+- What are the **3 other symbols** found on the reports in the office?
+- Where does the **hidden passage** behind the moving stones room lead?
+- What do the **Mirabar iron coins** signify?
+- Who sent the **earth priest** to the Believers?
+- What is the **Howling Hatred** (air cult) and how do they relate to the earth cult?

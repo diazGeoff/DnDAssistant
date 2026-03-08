@@ -2,7 +2,7 @@
 
 > **Type:** PC
 > **Race:** Leonin
-> **Class:** Fighter (TBD) — Level 3
+> **Class:** Fighter (Champion) — Level 3
 > **Background:** Soldier
 > **Alignment:** Lawful Neutral
 > **Player:** Geoff
@@ -47,7 +47,8 @@
 - **Fighting Style — Great Weapon Fighting:** When you roll a 1 or 2 on a damage die for an attack with a two-handed or versatile weapon (wielded in two hands), you can reroll and must use the new roll.
 - **Second Wind:** As a bonus action, regain 1d10+3 HP. Once per short/long rest.
 - **Action Surge:** Take one additional action on your turn. Once per short/long rest.
-- **Subclass:** TBD (to be chosen)
+- **Subclass: Champion**
+  - **Improved Critical:** Critical hit on a roll of 19 or 20
 
 ### Feats
 - —
