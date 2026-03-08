@@ -139,6 +139,23 @@
 - While kneeling, looks down and sees the **4 shadowy figures** across from him
 - Wakes up
 
+## Post-Session: Conversation with Kaylessa
+
+- Party told Kaylessa about their dreams
+- Kaylessa is **very concerned** — the dreams are **unusual** compared to what other townspeople experience
+- Kaylessa revealed her backstory — she's a **former pirate**
+- The **Lords' Alliance** offered her a clean slate in exchange for **spying on the Zhentarim**
+- She discussed the **5 major Faerun factions**: Harpers, Order of the Gauntlet, Emerald Enclave, Lords' Alliance, Zhentarim
+- She's sharing all this because she **needs the party's help** — the elemental cult threat is beyond what she can handle alone
+- **Lords' Alliance quest:** Find **3 missing diplomats**:
+  1. **Teresiel** — Moon elf
+  2. **Rhundorth** — Shield dwarf from Mirabar
+  3. **Deseyna Majarra** — Human noble from Waterdeep
+- Each diplomat carries an **encoded document** — all 3 pieces are needed to read the full document
+- The **document is more important than the diplomats themselves**
+- The wand from Lance Rock identified as a **Wand of Magic Missiles** — remains with the **Land Druid**
+- A separate orb identified as a **Driftglobe** (magic item) — transferred from the Land Druid to **Kuutar**
+
 ## Open Questions
 
 - What is the connection between the **eye symbol** (earth cult) and the **Lord of Lance Rock** (necromancer)?

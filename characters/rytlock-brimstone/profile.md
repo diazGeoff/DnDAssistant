@@ -2,7 +2,7 @@
 
 > **Type:** PC
 > **Race:** Leonin
-> **Class:** Fighter (Champion) — Level 3
+> **Class:** Fighter (Champion) — Level 4
 > **Background:** Soldier
 > **Alignment:** Lawful Neutral
 > **Player:** Geoff
@@ -27,8 +27,8 @@
 | AC         | 18 (chain mail + shield) |
 | Initiative | +0                       |
 | Speed      | 35 ft.                   |
-| Max HP     | 28                       |
-| Hit Dice   | 3d10                     |
+| Max HP     | 36                       |
+| Hit Dice   | 4d10                     |
 
 ## Proficiency
 
@@ -45,13 +45,13 @@
 
 ### Class Features (Fighter)
 - **Fighting Style — Great Weapon Fighting:** When you roll a 1 or 2 on a damage die for an attack with a two-handed or versatile weapon (wielded in two hands), you can reroll and must use the new roll.
-- **Second Wind:** As a bonus action, regain 1d10+3 HP. Once per short/long rest.
+- **Second Wind:** As a bonus action, regain 1d10+4 HP. Once per short/long rest.
 - **Action Surge:** Take one additional action on your turn. Once per short/long rest.
 - **Subclass: Champion**
   - **Improved Critical:** Critical hit on a roll of 19 or 20
 
 ### Feats
-- —
+- **Great Weapon Master:** Before you make a melee attack with a heavy weapon you're proficient with, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add +10 to the damage. Additionally, on your turn when you score a critical hit or reduce a creature to 0 HP with a melee weapon, you can make one melee weapon attack as a bonus action.
 
 ## Equipment (Base Loadout)
 
