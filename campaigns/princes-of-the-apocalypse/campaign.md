@@ -9,6 +9,15 @@
 
 ---
 
+## Party
+
+- **Rytlock Brimstone** — Fighter (Geoff)
+- **Kuutar** — Sorcerer (Geoff)
+- **Ranger** — (name TBD) — reads Auran
+- **Druid** — Circle of the Land (name TBD)
+- **Druid** — Circle of the Wood (name TBD)
+- **Thief** — Rogue (name TBD)
+
 ## Story
 
 ### Current Arc
@@ -31,9 +40,11 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
 - **Red Larch** — Small town in the Dessarin Valley. Current base of operations.
   - **The Swinging Sword** — Inn where the party is staying
   - **Shrine** — Visited to ask about the eye symbol
-  - **Sinkhole** — Opened by earthquake. Leads to an unknown underground area.
+  - **Sinkhole** — Opened by earthquake. 40 ft deep. Leads to a **dwarven-built dungeon** below Red Larch. Features maze-like pathways, dwarf carvings with battle axes, stone slab trap doors, and a floating black rock.
 - **Haunted Tombs** — Outside Red Larch. Guarded by a ghost. Contains a table with 3 rusty figures: a circle, a long one, and a box (possibly indicating missing items).
 - **Lance Rock** — Cave system outside Red Larch. Cleared. Former lair of the Lord of Lance Rock (necromancer, defeated). Contains stone slabs with bodies, and a back room with an eye-shaped symbol.
+- **Westbridge** — Town south of Beliard. Travelers departed here heading north but never arrived.
+- **Beliard** — Town north of Westbridge. Destination of missing travelers.
 
 ### Map Notes
 - **Red Larch (town):** [map](maps/Red_Larch.webp)
@@ -91,14 +102,14 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
 | HP               | 20      | 20   |
 | Temp HP          | 0       | —    |
 | Hit Dice         | 3d6     | 3d6  |
-| Sorcery Points   | 3       | 3    |
+| Sorcery Points   | 0       | 3    |
 
 #### Spell Slots
 
 | Level | Used | Total |
 |-------|------|-------|
 | 1st   | 1    | 4     |
-| 2nd   | 1    | 2     |
+| 2nd   | 2    | 2     |
 
 #### Currency
 
@@ -120,10 +131,10 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
 - **Wand** (unidentified) — held by the party druid. Dropped by the Lord of Lance Rock.
 
 ### Purchases
-- **Cart and donkey** — bought in Red Larch after clearing Lance Rock.
+- **Wagon and 2 donkeys** — bought in Red Larch after clearing Lance Rock.
 
 ### Quest Items / Clues
-- **Eye-shaped symbol/display** — held by the party ranger for investigation. Found in the back room of Lance Rock.
+- **Eye-shaped symbol/display** — held by the party druid for investigation. Found in the back room of Lance Rock.
 
 ## Session Log
 

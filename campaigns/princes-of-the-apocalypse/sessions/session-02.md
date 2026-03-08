@@ -35,3 +35,4 @@
 - What is the underground area beneath the sinkhole?
 - Are the 2 party members who fell in okay?
 - Is this connected to the four shadowy figures or something else entirely?
+- People were traveling north from Westbridge to Beliard but never arrived — what happened to them?
