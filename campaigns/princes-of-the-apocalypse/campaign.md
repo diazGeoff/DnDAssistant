@@ -15,7 +15,7 @@
 - **Kuutar** — Sorcerer (Geoff)
 - **Ranger** — (name TBD) — reads Auran
 - **Druid** — Circle of the Land (name TBD)
-- **Druid** — Circle of the Wood (name TBD)
+- **Druid** — Circle of Dreams (name TBD)
 - **Thief** — Rogue (name TBD)
 
 ## Story
@@ -54,13 +54,17 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
 - **Dessarin Valley (regional):** [map](maps/Dessarin_Valley-5e.webp) — 1 hex = 4 miles
 
 ### Factions
-—
+- **The Believers** — Local cult beneath Red Larch, run by town elders. Fear the **Delvers** — stone monoliths that are living things. If the Delvers move, the Believers believe disaster will follow. Use punishments (pinning people to stone tables) as appeasement. Likely being exploited by the larger earth cult.
+- **Howling Hatred** — Air cult. Sent a threatening message to the earth cult about skirmishes.
 
 ## NPCs
 
 - **Kaylessa** — Innkeeper in Red Larch. Sent the party a letter asking them to investigate four shadowy figures.
 - **The Ghost** — Guardian of the Haunted Tombs outside Red Larch. Purpose and identity unknown.
 - **The Lord of Lance Rock** — Necromancer who controlled undead in Lance Rock. Defeated. Real name unknown. Had an eye symbol in his lair.
+- **Rotarharterhand** — Father of the punished boy in the sinkhole dungeon. Connected to the elders.
+- **Ilmeth Waelver** — Wagon seller in Red Larch. Intended recipient of a letter from Rotarharterhand.
+- **Grund** — Half-orc in the sinkhole dungeon. Simple-minded, coerced by the elders. Fought the party initially but turned against the cultists. Potential ally.
 
 ## Character States
 
@@ -129,6 +133,9 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
 
 ### Loot
 - **Wand** (unidentified) — held by the party druid. Dropped by the Lord of Lance Rock.
+- **Coins** (amount TBD) — from the petrified dwarf shrine in the sinkhole dungeon.
+- **Gems** (amount TBD) — from the petrified dwarf shrine in the sinkhole dungeon.
+- **"Reszur"** (blood-stained dagger) — inscribed pommel. From the petrified dwarf shrine in the sinkhole dungeon.
 
 ### Purchases
 - **Wagon and 2 donkeys** — bought in Red Larch after clearing Lance Rock.

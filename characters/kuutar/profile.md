@@ -44,6 +44,7 @@
 - **Celestial Resistance:** Resistance to necrotic and radiant damage
 - **Healing Hands:** As an action, touch a creature and restore HP equal to your level (once per long rest)
 - **Light Bearer:** Know the *Light* cantrip (CHA is spellcasting ability)
+- **Celestial Revelation (Radiant Soul):** As a bonus action, gain a flying speed equal to walking speed for 1 minute (once per long rest)
 
 ### Class Features (Sorcerer)
 - **Spellcasting:** CHA-based. Spell Save DC 14, Spell Attack Bonus +6
@@ -51,6 +52,9 @@
 - **Flexible Casting:** Spend sorcery points to create spell slots (bonus action), or convert spell slots to sorcery points (bonus action)
 - **Metamagic:** Twinned Spell (1 SP — target a second creature with a single-target spell), Quickened Spell (2 SP — change casting time from action to bonus action)
 - **Subclass:** Astral Drifter (details TBD)
+
+### Lunar Sorcery Features
+- **Moonfire:** You know *Sacred Flame* (doesn't count against cantrips known). When you cast it, you can target one creature as normal or two creatures within range that are within 5 feet of each other.
 
 ### Feats
 - —
@@ -86,7 +90,7 @@
 
 ### Spells Known
 
-#### Cantrips
+#### Cantrips (4 known + Light from Aasimar + Sacred Flame from Moonfire)
 - Elementalism
 - Mind Sliver
 - Acid Splash
@@ -94,7 +98,7 @@
 - Fire Bolt
 - Light *(also from Aasimar: Light Bearer)*
 - Prestidigitation
-- Sacred Flame
+- Sacred Flame *(free via Moonfire — doesn't count against cantrips known)*
 
 #### 1st Level
 - Chaos Bolt
