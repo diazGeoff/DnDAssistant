@@ -80,6 +80,40 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
 
 - None
 
+### Kuutar
+
+> `characters/kuutar/profile.md`
+
+#### Resources
+
+| Resource         | Current | Max  |
+|------------------|---------|------|
+| HP               | 20      | 20   |
+| Temp HP          | 0       | —    |
+| Hit Dice         | 3d6     | 3d6  |
+| Sorcery Points   | 3       | 3    |
+
+#### Spell Slots
+
+| Level | Used | Total |
+|-------|------|-------|
+| 1st   | 1    | 4     |
+| 2nd   | 1    | 2     |
+
+#### Currency
+
+| PP | GP | EP | SP | CP |
+|----|----|----|----|----|
+| —  | 52 | —  | —  | —  |
+
+#### Inventory (campaign-acquired)
+
+- —
+
+#### Conditions & Temporary Effects
+
+- None
+
 ## Party Loot & Shared Items
 
 ### Loot

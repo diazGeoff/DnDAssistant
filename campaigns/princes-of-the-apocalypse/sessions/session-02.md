@@ -14,8 +14,8 @@
 - The necromancer revealed himself, calling himself **"The Lord of Lance Rock"**
 - He had skeleton minions guarding him, but a stealthy teammate managed to close the distance
 - The necromancer fled to a back room and summoned a **flesh golem** — immune to physical damage
-- The party mage hit the golem with **fire magic**, dealing real damage
-- The flesh golem, aggro'd by the fireball, charged toward the mage — away from the necromancer
+- **Kuutar** (party mage) hit the golem with **fire magic**, dealing real damage
+- The flesh golem, aggro'd by the fireball, charged toward Kuutar — away from the necromancer
 - Some party members were pinned near the stone slabs by skeleton minions and the golem
 - Split-attack strategy: 2 party members (including the stealthy one) broke through to attack the necromancer directly, while the rest held off the minions
 - **The Lord of Lance Rock was killed** — the flesh golem collapsed when he died, and the remaining skeletons were mopped up
