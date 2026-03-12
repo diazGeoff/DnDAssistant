@@ -1,0 +1,13 @@
+{
+  "name": "dnd-game-assistant-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "chokidar": "^4.0.0",
+    "express": "^4.21.0",
+    "marked": "^15.0.0"
+  }
+}

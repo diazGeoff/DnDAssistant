@@ -24,6 +24,10 @@ campaigns/               — Campaign profiles, world details, factions, lore
     maps/                — Map images or notes (created as needed)
     handouts/            — DM handouts, letters, puzzles (created as needed)
 references/              — Rules references, homebrew rules, house rules
+web/                     — Local web viewer with embedded chat assistant
+  config.json            — Active campaign setting (used by chat)
+  server.js              — Express server (markdown viewer + chat API)
+  public/                — Frontend assets (styles, chat widget)
 ```
 
 Use kebab-case for filenames and folder names (e.g., `thordak-the-brave/`, `session-01-the-beginning.md`).
@@ -70,3 +74,11 @@ Each entry should note: what it is, who holds it, and where it came from. Update
 - When unsure about a rule, say so and suggest the most reasonable interpretation
 - Keep files organized and up to date as new information comes in
 - **Context usage:** Periodically check context window usage. Warn Geoff when usage exceeds 70% so he can decide whether to start a new conversation or wrap up.
+
+## Web Viewer & Chat
+
+Run `./start.sh` to launch both the web viewer (port 3000) and the Claude Max API Proxy (port 3456).
+
+- The chat widget dynamically reads `campaigns/*` and `characters/*` to assemble its system prompt
+- Active campaign is set in `web/config.json` and can be switched from the chat UI
+- Each chatbox open/close is a fresh session — no history persists between sessions
