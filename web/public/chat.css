@@ -85,6 +85,20 @@
   outline: 1px solid var(--accent);
 }
 
+.chat-model-select {
+  background: var(--bg-surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.15rem 0.3rem;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+
+.chat-model-select:focus {
+  outline: 1px solid var(--accent);
+}
+
 .chat-header-right {
   display: flex;
   align-items: center;

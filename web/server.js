@@ -294,7 +294,7 @@ app.post('/api/config', (req, res) => {
 });
 
 app.post('/api/chat', async (req, res) => {
-  const { messages, sessionId } = req.body;
+  const { messages, sessionId, model } = req.body;
   const config = readConfig();
   const campaignName = config.activeCampaign;
 
@@ -313,7 +313,7 @@ app.post('/api/chat', async (req, res) => {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        model: 'claude-opus-4-6',
+        model: model || 'claude-sonnet-4',
         messages: apiMessages,
         stream: true,
       }),

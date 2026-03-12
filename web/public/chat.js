@@ -8,6 +8,7 @@
   let messages = [];
   let isStreaming = false;
   let activeCampaign = '';
+  let selectedModel = 'claude-sonnet-4';
   let systemPromptChars = 0;
 
   // --- DOM Setup ---
@@ -29,6 +30,10 @@
           <select class="chat-campaign-select"></select>
         </div>
         <div class="chat-header-right">
+          <select class="chat-model-select">
+            <option value="claude-sonnet-4">Sonnet</option>
+            <option value="claude-opus-4">Opus</option>
+          </select>
           <span class="chat-context" title="Estimated context usage">0%</span>
           <button class="chat-new" title="New session">&#x21bb;</button>
           <button class="chat-minimize" title="Minimize">&minus;</button>
@@ -67,6 +72,12 @@
     const select = panel.querySelector('.chat-campaign-select');
     select.addEventListener('change', (e) => {
       changeCampaign(e.target.value);
+    });
+
+    // Model selector
+    const modelSelect = panel.querySelector('.chat-model-select');
+    modelSelect.addEventListener('change', (e) => {
+      selectedModel = e.target.value;
     });
 
     loadCampaigns();
@@ -203,7 +214,7 @@
       const response = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ messages, sessionId }),
+        body: JSON.stringify({ messages, sessionId, model: selectedModel }),
       });
 
       if (!response.ok) {
