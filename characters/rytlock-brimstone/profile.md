@@ -1,3 +1,5 @@
+![Rytlock Brimstone](rytlock-appearance.jpg)
+
 # Rytlock Brimstone
 
 > **Type:** PC
@@ -74,6 +76,7 @@
 ## Notes
 
 ### Appearance
+
 Leonin (charr-inspired). Stocky but powerful build — was the runt of his litter but grew into a feared warrior. Sharp teeth, claws, tail that flicks when irritated. Carries himself with the authority of a tribune.
 
 ### Backstory
