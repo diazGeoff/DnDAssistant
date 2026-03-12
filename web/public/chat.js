@@ -16,11 +16,14 @@
     // Chat bubble
     const bubble = document.createElement('button');
     bubble.className = 'chat-bubble';
-    bubble.innerHTML = '&#x1f3b2;'; // dice emoji
+    bubble.innerHTML = '&#x1f4ac;'; // chat bubble emoji
     bubble.title = 'Open D&D Chat';
     bubble.addEventListener('click', openChat);
 
-    // Chat panel
+    // Chat panel wrapper (allows minimize button to protrude)
+    const wrapper = document.createElement('div');
+    wrapper.className = 'chat-panel-wrapper';
+
     const panel = document.createElement('div');
     panel.className = 'chat-panel';
     panel.innerHTML = `
@@ -36,7 +39,6 @@
           </select>
           <span class="chat-context" title="Estimated context usage">0%</span>
           <button class="chat-new" title="New session">&#x21bb;</button>
-          <button class="chat-minimize" title="Minimize">&minus;</button>
         </div>
       </div>
       <div class="chat-messages"></div>
@@ -46,12 +48,45 @@
       </div>
     `;
 
+    const minimizeBtn = document.createElement('button');
+    minimizeBtn.className = 'chat-minimize';
+    minimizeBtn.title = 'Minimize';
+    minimizeBtn.innerHTML = '&minus;';
+
+    wrapper.appendChild(minimizeBtn);
+    wrapper.appendChild(panel);
+
     document.body.appendChild(bubble);
-    document.body.appendChild(panel);
+    document.body.appendChild(wrapper);
+
+    // Confirmation modal
+    const modal = document.createElement('div');
+    modal.className = 'chat-confirm-modal';
+    modal.innerHTML = `
+      <div class="chat-confirm-box">
+        <p>Start a new session?</p>
+        <span class="chat-confirm-sub">Current conversation will be lost.</span>
+        <div class="chat-confirm-actions">
+          <button class="chat-confirm-cancel">Cancel</button>
+          <button class="chat-confirm-ok">Reset</button>
+        </div>
+      </div>
+    `;
+    panel.appendChild(modal);
+
+    modal.querySelector('.chat-confirm-cancel').addEventListener('click', () => {
+      modal.classList.remove('open');
+    });
+    modal.querySelector('.chat-confirm-ok').addEventListener('click', () => {
+      modal.classList.remove('open');
+      resetSession();
+    });
 
     // Event listeners
-    panel.querySelector('.chat-minimize').addEventListener('click', minimizeChat);
-    panel.querySelector('.chat-new').addEventListener('click', resetSession);
+    minimizeBtn.addEventListener('click', minimizeChat);
+    panel.querySelector('.chat-new').addEventListener('click', () => {
+      modal.classList.add('open');
+    });
     panel.querySelector('.chat-send').addEventListener('click', handleSend);
 
     const input = panel.querySelector('.chat-input');
@@ -124,7 +159,7 @@
 
   function openChat() {
     document.querySelector('.chat-bubble').classList.add('hidden');
-    document.querySelector('.chat-panel').classList.add('open');
+    document.querySelector('.chat-panel-wrapper').classList.add('open');
     // Only start a new session if there isn't one already
     if (!sessionId) {
       resetSession();
@@ -133,7 +168,7 @@
   }
 
   function minimizeChat() {
-    document.querySelector('.chat-panel').classList.remove('open');
+    document.querySelector('.chat-panel-wrapper').classList.remove('open');
     document.querySelector('.chat-bubble').classList.remove('hidden');
     // Session stays alive — clicking bubble will restore it
   }
