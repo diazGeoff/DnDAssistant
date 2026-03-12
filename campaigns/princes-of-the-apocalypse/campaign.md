@@ -11,8 +11,8 @@
 
 ## Party
 
-- **Rytlock Brimstone** — Fighter (Geoff)
-- **Kuutar** — Sorcerer (Geoff)
+- **Rytlock Brimstone** — Fighter (Player)
+- **Kuutar** — Sorcerer (Player)
 - **Ranger** — (name TBD) — reads Auran
 - **Druid** — Circle of the Land (name TBD)
 - **Druid** — Circle of Dreams (name TBD)

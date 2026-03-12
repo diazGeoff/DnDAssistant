@@ -5,7 +5,7 @@
 > **Class:** Fighter (Champion) — Level 4
 > **Background:** Soldier
 > **Alignment:** Lawful Neutral
-> **Player:** Geoff
+> **Player:** Player
 
 ---
 
