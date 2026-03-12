@@ -104,6 +104,14 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
 - Crossbow bolts
 - Dungeoneer's pack
 
+#### Short/Long Rest Resources
+
+| Resource          | Status |
+|-------------------|--------|
+| Second Wind       | Available |
+| Action Surge      | Available |
+| Daunting Roar     | Available |
+
 #### Conditions & Temporary Effects
 
 - None
@@ -116,17 +124,17 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
 
 | Resource         | Current | Max  |
 |------------------|---------|------|
-| HP               | 20      | 20   |
+| HP               | 30      | 30   |
 | Temp HP          | 0       | —    |
-| Hit Dice         | 3d6     | 3d6  |
-| Sorcery Points   | 3       | 3    |
+| Hit Dice         | 4d6     | 4d6  |
+| Sorcery Points   | 4       | 4    |
 
 #### Spell Slots
 
 | Level | Used | Total |
 |-------|------|-------|
 | 1st   | 0    | 4     |
-| 2nd   | 0    | 2     |
+| 2nd   | 0    | 3     |
 
 #### Currency
 

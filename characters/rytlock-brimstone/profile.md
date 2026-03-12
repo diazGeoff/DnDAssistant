@@ -7,7 +7,7 @@
 > **Class:** Fighter (Champion) — Level 4
 > **Background:** Soldier
 > **Alignment:** Lawful Neutral
-> **Player:** Player
+> **Player:** Geoff
 
 ---
 
@@ -35,8 +35,39 @@
 ## Proficiency
 
 - **Proficiency Bonus:** +2
-- **Saving Throws:** STR (+5), CON (+4)
-- **Skills:** Athletics (+5), Intimidation (+4)
+- **Saving Throws:**
+
+| Save | Ability | Bonus | Prof |
+|------|---------|-------|------|
+| Strength | STR | **+5** | ✓ |
+| Dexterity | DEX | +0 | |
+| Constitution | CON | **+4** | ✓ |
+| Intelligence | INT | -1 | |
+| Wisdom | WIS | +1 | |
+| Charisma | CHA | +2 | |
+
+- **Skills:**
+
+| Skill | Ability | Bonus | Prof |
+|-------|---------|-------|------|
+| Acrobatics | DEX | +0 | |
+| Animal Handling | WIS | +1 | |
+| Arcana | INT | -1 | |
+| Athletics | STR | **+5** | ✓ |
+| Deception | CHA | +2 | |
+| History | INT | -1 | |
+| Insight | WIS | +1 | |
+| Intimidation | CHA | **+4** | ✓ |
+| Investigation | INT | -1 | |
+| Medicine | WIS | +1 | |
+| Nature | INT | -1 | |
+| Perception | WIS | +1 | |
+| Performance | CHA | +2 | |
+| Persuasion | CHA | +2 | |
+| Religion | INT | -1 | |
+| Sleight of Hand | DEX | +0 | |
+| Stealth | DEX | +0 | |
+| Survival | WIS | +1 | |
 
 ## Features & Traits
 
