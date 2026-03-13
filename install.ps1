@@ -37,6 +37,16 @@ if (Test-Path ".mcp.json") {
     Write-Host ".mcp.json created."
 }
 
+# 4. Install claude-max-api-proxy globally
+Write-Host "Installing claude-max-api-proxy..."
+# Load nvm for Windows (nvm-windows) if available
+if (Get-Command nvm -ErrorAction SilentlyContinue) {
+    nvm install
+}
+npm install -g claude-max-api-proxy
+Write-Host "claude-max-api-proxy installed."
+Write-Host ""
+
 Write-Host ""
 Write-Host "=== Setup complete! ==="
 Write-Host ""
