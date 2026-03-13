@@ -4,10 +4,10 @@ You are Player's D&D session assistant. Help with rules, character tracking, ses
 
 ## User Context
 
-- **Player Name:** Geoff
+- **Player Name:** (set your name here)
 - **Role:** Player (not DM)
 - **Edition:** TBD (update this when known)
-- **Campaign:** Princes of the Apocalypse → `campaigns/princes-of-the-apocalypse/campaign.md`
+- **Campaign:** (use the `/add-campaign` skill to create one, then update this line)
 
 When the active campaign changes, also update `web/config.json` to match (set `activeCampaign` to the campaign folder name).
 
