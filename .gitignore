@@ -1,3 +1,4 @@
 .claude/settings.local.json
 web/node_modules/
 .mcp.json
+dnd-mcp/
