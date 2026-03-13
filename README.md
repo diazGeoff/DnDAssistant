@@ -30,11 +30,29 @@ git clone <your-repo-url> DnDGameAssistant
 cd DnDGameAssistant
 ```
 
-### 2. Set your player name
+### 2. Run the install script
+
+This installs web dependencies, clones the [dnd-mcp](https://github.com/heffrey78/dnd-mcp) server (D&D 5e rules lookup via Open5e API), and creates your `.mcp.json` from the template.
+
+**macOS / Linux:**
+```bash
+cp .mcp.json.template .mcp.json   # Create your local MCP config
+./install.sh                       # Install all dependencies
+```
+
+**Windows (PowerShell):**
+```powershell
+Copy-Item .mcp.json.template .mcp.json   # Create your local MCP config
+.\install.ps1                              # Install all dependencies
+```
+
+After install, restart Claude Code to pick up the new MCP servers.
+
+### 3. Set your player name
 
 Open `CLAUDE.md` and update the **Player Name** field in the User Context section.
 
-### 3. Create your first campaign
+### 4. Create your first campaign
 
 Launch Claude Code in the project directory:
 
@@ -50,7 +68,7 @@ Add a new campaign called "Curse of Strahd", DM is Alex, we play on Fridays
 
 This triggers the **add-campaign** skill, which walks you through setup and creates the campaign files.
 
-### 4. Add your character
+### 5. Add your character
 
 ```
 Add a new character — Thordak, Level 3 Human Fighter
@@ -58,7 +76,7 @@ Add a new character — Thordak, Level 3 Human Fighter
 
 The **add-character** skill guides you through a conversational interview to build the full character sheet. You can also upload PDFs or images of existing character sheets.
 
-### 5. Join the campaign
+### 6. Join the campaign
 
 ```
 Add Thordak to Curse of Strahd
@@ -66,7 +84,7 @@ Add Thordak to Curse of Strahd
 
 The **join-campaign** skill links your character to the campaign and sets up in-session state tracking (HP, spell slots, inventory, currency).
 
-### 6. Play
+### 7. Play
 
 You're ready. During sessions, the assistant can:
 
@@ -146,7 +164,8 @@ Commits your current changes with a descriptive message categorized by type (cha
 The project includes a local web viewer for browsing campaign and character data in a browser.
 
 ```bash
-./start.sh
+./start.sh          # macOS / Linux
+.\start.ps1         # Windows (PowerShell)
 ```
 
 This launches:

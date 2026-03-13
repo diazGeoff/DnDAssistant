@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "github": {
+      "command": "gh",
+      "args": ["mcp"]
+    },
+    "dnd-5e": {
+      "command": "node",
+      "args": ["dnd-mcp/dist/index.js"]
+    }
+  }
+}

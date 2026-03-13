@@ -78,9 +78,18 @@ Each entry should note: what it is, who holds it, and where it came from. Update
 - Keep files organized and up to date as new information comes in
 - **Context usage:** Periodically check context window usage. Warn Player when usage exceeds 70% so he can decide whether to start a new conversation or wrap up.
 
+## MCP Servers
+
+The project uses MCP (Model Context Protocol) servers to extend Claude Code's capabilities:
+
+- **github** — GitHub integration via `gh mcp`
+- **dnd-5e** — D&D 5e rules lookup (spells, classes, races, monsters, equipment) via the [Open5e API](https://open5e.com/). Powered by [heffrey78/dnd-mcp](https://github.com/heffrey78/dnd-mcp).
+
+MCP servers are configured in `.mcp.json` (gitignored). First-time setup: copy `.mcp.json.template` to `.mcp.json`, then run `./install.sh` (macOS/Linux) or `.\install.ps1` (Windows PowerShell) to clone and build dependencies.
+
 ## Web Viewer & Chat
 
-Run `./start.sh` to launch both the web viewer (port 3000) and the Claude Max API Proxy (port 3456).
+Run `./start.sh` (macOS/Linux) or `.\start.ps1` (Windows PowerShell) to launch both the web viewer (port 3000) and the Claude Max API Proxy (port 3456).
 
 - The chat widget dynamically reads `campaigns/*` and `characters/*` to assemble its system prompt
 - Active campaign is set in `web/config.json` and can be switched from the chat UI
