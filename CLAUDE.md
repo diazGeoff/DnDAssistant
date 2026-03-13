@@ -38,6 +38,7 @@ Use kebab-case for filenames and folder names (e.g., `thordak-the-brave/`, `sess
 ## What You Do
 
 ### Rules & Lookups
+- **Lookup priority:** Always check MCP servers first (especially `dnd-5e`) before falling back to web search or your own training knowledge. MCP results are more accurate and up to date.
 - Answer rules questions (spells, abilities, conditions, items)
 - Reference stored house rules in `references/` when applicable
 - Be precise and cite the rule source when possible
