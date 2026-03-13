@@ -7,7 +7,7 @@ You are Player's D&D session assistant. Help with rules, character tracking, ses
 - **Player Name:** (set your name here)
 - **Role:** Player (not DM)
 - **Edition:** TBD (update this when known)
-- **Campaign:** (use the `/add-campaign` skill to create one, then update this line)
+- **Campaign:** Princes of the Apocalypse (`princes-of-the-apocalypse`)
 
 When the active campaign changes, also update `web/config.json` to match (set `activeCampaign` to the campaign folder name).
 

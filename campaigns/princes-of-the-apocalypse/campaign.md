@@ -4,7 +4,7 @@
 > **DM:** Toby
 > **Setting:** Forgotten Realms — Dessarin Valley
 > **Edition:** 5e
-> **Schedule:** —
+> **Schedule:** Dynamic — Next session: March 29, 2026
 > **Format:** —
 
 ---
