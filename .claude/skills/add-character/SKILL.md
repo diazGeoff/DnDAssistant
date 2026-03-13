@@ -27,7 +27,7 @@ Don't be robotic about it. Group related questions naturally. If the user volunt
 1. **Basic Info** — Name, race, class, subclass, level, background, alignment, player name (PC only)
 2. **Ability Scores** — STR, DEX, CON, INT, WIS, CHA (scores and modifiers)
 3. **Combat Stats** — Armor Class (AC), initiative modifier, speed, max HP, hit dice
-4. **Proficiency** — Proficiency bonus, saving throw proficiencies, skill proficiencies (note expertise if applicable)
+4. **Proficiency** — Proficiency bonus, saving throw proficiencies (with bonuses), skill proficiencies (with bonuses; note expertise if applicable), languages
 5. **Features & Traits** — Racial traits, class features, feats
 6. **Equipment & Inventory** — Weapons, armor (base loadout only — consumables, loot, and currency are tracked in the campaign file)
 7. **Spellcasting** (if applicable) — Spellcasting ability, spell save DC, spell attack bonus, total spell slots per level, known/prepared spells (slot usage is tracked in the campaign file)
@@ -50,6 +50,8 @@ If the user wants to attach files (character art, backstory documents, PDFs, scr
 Use this Markdown template for `profile.md`. Omit sections that don't apply (e.g., spellcasting for a fighter, personality for an NPC). Use "—" for unknown fields.
 
 ```markdown
+![Character Name](character-appearance.ext)
+
 # [Character Name]
 
 > **Type:** PC / NPC
@@ -85,21 +87,63 @@ Use this Markdown template for `profile.md`. Omit sections that don't apply (e.g
 ## Proficiency
 
 - **Proficiency Bonus:** +[X]
-- **Saving Throws:** [list]
-- **Skills:** [list, mark expertise with (E)]
+- **Saving Throws:**
+
+| Save | Ability | Bonus | Prof |
+|------|---------|-------|------|
+| Strength     | STR |  | |
+| Dexterity    | DEX |  | |
+| Constitution | CON |  | |
+| Intelligence | INT |  | |
+| Wisdom       | WIS |  | |
+| Charisma     | CHA |  | |
+
+- **Skills:**
+
+| Skill | Ability | Bonus | Prof |
+|-------|---------|-------|------|
+| Acrobatics | DEX |  | |
+| Animal Handling | WIS |  | |
+| Arcana | INT |  | |
+| Athletics | STR |  | |
+| Deception | CHA |  | |
+| History | INT |  | |
+| Insight | WIS |  | |
+| Intimidation | CHA |  | |
+| Investigation | INT |  | |
+| Medicine | WIS |  | |
+| Nature | INT |  | |
+| Perception | WIS |  | |
+| Performance | CHA |  | |
+| Persuasion | CHA |  | |
+| Religion | INT |  | |
+| Sleight of Hand | DEX |  | |
+| Stealth | DEX |  | |
+| Survival | WIS |  | |
+
+- **Languages:** [languages]
 
 ## Features & Traits
 
-- [Feature 1]
-- [Feature 2]
+### Racial Traits ([Race])
+- [Trait]: [Description]
+
+### Class Features ([Class])
+- [Feature]: [Description]
+
+### Feats
+- [Feat]: [Description] (or "—" if none)
 
 ## Equipment (Base Loadout)
 
 ### Weapons
-- [Weapon]: [damage] [type]
+- **[Weapon]:** +[X] to hit, [damage dice]+[mod] [type] ([properties])
 
 ### Armor
-- [Armor]: [AC contribution]
+- **[Armor]:** AC [X] ([details])
+
+### Other Gear
+- [Item] — [description]
 
 ## Spellcasting
 
@@ -160,6 +204,8 @@ This separation means the same character can be in multiple campaigns with diffe
 ## File attachments
 
 When the user provides files:
-- **Images** (character art, screenshots): Save as-is into the character folder. If it's a character sheet screenshot, try to extract visible stats and incorporate them into the profile.
+- **Images** (character art, screenshots): Save as-is into the character folder. If it's a character sheet screenshot, try to extract visible stats and incorporate them into the profile. If it's appearance/character art, name it `<character-name>-appearance.<ext>` and add it as the image reference at the top of the profile (e.g., `![Character Name](character-name-appearance.webp)`).
 - **PDFs / text files** (backstory docs, exported sheets): Read the content, extract relevant character details, and merge them into the appropriate profile sections. Save the original file too.
 - **Reference the attachments** in the Notes section of the profile so it's clear what's in the folder.
+
+The image reference at the top of the profile is optional — only include it if the user provides character art. If no image is provided, omit the `![...]()` line entirely.
