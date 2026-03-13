@@ -33,6 +33,15 @@ else
   echo ".mcp.json created."
 fi
 
+# 4. Install claude-max-api-proxy globally
+echo "Installing claude-max-api-proxy..."
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+nvm install
+npm install -g claude-max-api-proxy
+echo "claude-max-api-proxy installed."
+echo ""
+
 echo ""
 echo "=== Setup complete! ==="
 echo ""

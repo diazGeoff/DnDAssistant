@@ -18,8 +18,27 @@ Built for **players** (not DMs). The assistant helps with rules lookups, combat 
 ## Requirements
 
 - [Claude Code CLI](https://docs.anthropic.com/en/docs/claude-code) (with an active Claude subscription)
-- [Node.js](https://nodejs.org/) (for the web viewer)
+- [nvm](https://github.com/nvm-sh/nvm) (Node Version Manager) — manages the correct Node.js version via `.nvmrc`
 - Git
+
+### Installing nvm
+
+**macOS / Linux:**
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+```
+Then restart your terminal and run:
+```bash
+nvm install    # installs the version specified in .nvmrc
+```
+
+**Windows:**
+
+Install [nvm-windows](https://github.com/coreybutler/nvm-windows/releases) (download and run the installer), then:
+```powershell
+nvm install <version>    # check .nvmrc for the required version
+nvm use <version>
+```
 
 ## Getting Started
 
