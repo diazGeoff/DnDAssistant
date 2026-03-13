@@ -1,6 +1,6 @@
-# Session 2
+# Session 2: The Lord of Lance Rock
 
-> **Date:** —
+> **Date:** February 15, 2026
 > **Location:** Lance Rock (Necromancer's Cave)
 
 ---

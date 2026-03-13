@@ -5,7 +5,7 @@
 > **Setting:** Forgotten Realms — Dessarin Valley
 > **Edition:** 5e
 > **Schedule:** Dynamic — Next session: March 29, 2026
-> **Format:** —
+> **Format:** In-person
 
 ---
 
@@ -171,9 +171,9 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
 
 | # | Date | Title | Notes |
 |---|------|-------|-------|
-| 1 |      |       | [notes](sessions/session-01.md) |
-| 2 |      |       | [notes](sessions/session-02.md) |
-| 3 | March 8, 2026 | Tomb of Moving Stones | [notes](sessions/session-03.md) |
+| 1 | January 25, 2026 | Shadows Over Red Larch | [notes](sessions/session-01.md) |
+| 2 | February 15, 2026 | The Lord of Lance Rock | [notes](sessions/session-02.md) |
+| 3 | March 8, 2026 | Beneath the Believers | [notes](sessions/session-03.md) |
 
 **Next session:** March 29, 2026
 

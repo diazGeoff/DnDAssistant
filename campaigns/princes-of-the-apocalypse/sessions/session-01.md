@@ -1,6 +1,6 @@
-# Session 1
+# Session 1: Shadows Over Red Larch
 
-> **Date:** —
+> **Date:** January 25, 2026
 > **Location:** Red Larch / Haunted Tombs / Lance Rock
 
 ---

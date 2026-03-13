@@ -1,4 +1,4 @@
-# Session 3
+# Session 3: Beneath the Believers
 
 > **Date:** March 8, 2026
 > **Location:** Red Larch — Sinkhole
