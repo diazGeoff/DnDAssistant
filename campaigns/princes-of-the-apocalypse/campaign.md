@@ -6,6 +6,8 @@
 > **Edition:** 5e
 > **Schedule:** Dynamic — Next session: March 29, 2026
 > **Format:** In-person
+> **In-Game Time Elapsed:** ~10 days
+> **Moon Phase:** Waning Crescent *(Full Moon ~10 days ago — changes every ~10 days)*
 
 ---
 
@@ -34,7 +36,7 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
 
 ### Active
 - **Investigate the Four Shadowy Figures** — Letter from Kaylessa. Who/what are they? Kuutar saw them in a dream — one now has a **brown** color (earth cult connection?).
-- **Find the 3 Missing Diplomats** (Lords' Alliance) — Kaylessa asked the party to locate: **Teresiel** (moon elf), **Rhundorth** (shield dwarf from Mirabar), **Deseyna Majarra** (human noble from Waterdeep). Each carries a piece of an **encoded document** — all 3 pieces are needed to read it. The document is the priority.
+- **Find the 3 Missing Diplomats** (Lords' Alliance) — Kaylessa asked the party to locate: **Teresiel** (moon elf), **Rhundorth** (shield dwarf from Mirabar), **Deseyna Majarra** (human noble from Waterdeep). Each carries a piece of an **encoded document** — all 3 pieces are needed to read it. The document is the priority. **Known route: Westbridge → Beliard → Summit Hall.** Diplomats were last seen in Beliard — never arrived at Summit Hall. **Start investigation in Beliard.**
 
 ### Completed
 —
@@ -48,8 +50,11 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
   - **Sinkhole** — Opened by earthquake. 40 ft deep. Leads to the **Tomb of Moving Stones** below Red Larch. Features maze-like pathways, dwarf carvings with battle axes, stone slab trap doors, and a floating black rock.
 - **Haunted Tombs** — Outside Red Larch. Guarded by a ghost. Contains a table with 3 rusty figures: a circle, a long one, and a box (possibly indicating missing items). **Circle confirmed = Driftglobe** (now held by Kuutar). Long one and box still unidentified.
 - **Lance Rock** — Cave system outside Red Larch. Cleared. Former lair of the Lord of Lance Rock (necromancer, defeated). Contains stone slabs with bodies, and a back room with an eye-shaped symbol.
-- **Westbridge** — Town south of Beliard. Travelers departed here heading north but never arrived.
-- **Beliard** — Town north of Westbridge. Destination of missing travelers.
+- **Westbridge** — Town in the Dessarin Valley. Diplomats passed through here heading north.
+- **Beliard** — Town north of Westbridge. Diplomats were last seen here — never arrived at Summit Hall.
+- **Summit Hall** — Destination the diplomats never reached. South of Beliard on the road.
+- **Sighing Valley** — Valley en route to Feathergale Spire. Party passed through here after leaving the Cairn Road.
+- **Feathergale Spire** — Tower in the Sighing Valley. Confirmed **Howling Hatred (air cult)** base — Ranger's detection traced Auran mark here. Knights mounted on flying beasts seen circling the spire.
 
 ### Map Notes
 - **Red Larch (town):** [map](maps/Red_Larch.webp)
@@ -58,6 +63,7 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
 - **Red Larch (surroundings):** [map](maps/Red_larch_surroundings.jpg)
 - **Lance Rock (Necromancer's Cave):** [map](maps/necromancers-cave.webp)
 - **Dessarin Valley (regional):** [map](maps/Dessarin_Valley-5e.webp) — 1 hex = 4 miles
+- **Sighing Valley:** [map](maps/sighing-valley.jpg) — Feathergale Spire, Howling Plateau, key locations
 
 ### Factions
 - **The Believers** — Local cult beneath Red Larch, run by town elders. Fear the **Delvers** — stone monoliths that are living things. If the Delvers move, the Believers believe disaster will follow. Use punishments (pinning people to stone tables) as appeasement. Exploited by the larger earth cult. **All jailed; some questioned and sent to Waterdeep. Known members: Ilmeth Waelver, Baragustas, Rotarharterhand (the boy's father), Grund.**
@@ -78,6 +84,12 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
 - **Rotarharterhand** — Father of the punished boy in the sinkhole dungeon. Connected to the elders.
 - **Ilmeth Waelver** — Wagon seller in Red Larch. Intended recipient of a letter from Rotarharterhand.
 - **Grund** — Half-orc in the sinkhole dungeon. Simple-minded, coerced by the elders. Fought the party initially but turned against the cultists. Party vouched for him to Kaylessa. Ally.
+- **Lamond Greenboot** — Farmer near Red Larch. Reported the shallow graves on the Cairn Road. Led the party there and parted ways after the short rest.
+- **Kwal** — Aarakocra leader in the Sighing Valley. Initially welcomed the air cult settlers; now hostile toward them after they began trying to take over the valley. **Allied with the party** — agreed to help if the party is attacked from the air.
+- **Krook** — Aarakocra, grumpy. Member of Kwal's group.
+- **Kwikar** — Aarakocra, female, barn owl. Member of Kwal's group.
+- **Zeeles** — Aarakocra. Member of Kwal's group.
+- **Rharra** — Aarakocra. Member of Kwal's group.
 
 ## Character States
 
@@ -97,12 +109,15 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
 
 | PP | GP | EP | SP | CP |
 |----|----|----|----|----|
-| —  | 189 | —  | 7  | 8  |
+| —  | 132 | —  | 3  | 1  |
 
 #### Inventory (campaign-acquired)
 
 - Crossbow bolts
 - Dungeoneer's pack
+- Potion of Healing (x2)
+- Oil flask (x2)
+- Signal Whistle
 
 #### Short/Long Rest Resources
 
@@ -140,11 +155,15 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
 
 | PP | GP | EP | SP | CP |
 |----|----|----|----|----|
-| —  | 194 | —  | 7  | 8  |
+| —  | 218 | —  | 5  | 1  |
 
 #### Inventory (campaign-acquired)
 
 - **Driftglobe** (magic item) — from the Lord of Lance Rock's lair. Transferred from Land Druid.
+- Healer's Kit x2 (10 uses each)
+- Barrel of Ale
+- Mirror
+- Signal Whistle
 
 #### Conditions & Temporary Effects
 
@@ -153,11 +172,9 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
 ## Party Loot & Shared Items
 
 ### Loot
+- **Magic Javelin** (magic item) — found on a body at the shallow graves (barren hilltop, Cairn Road). **Held by the Ranger.**
 - **Wand of Magic Missiles** (magic item) — dropped by the Lord of Lance Rock. **Held by the Land Druid.**
 - **Driftglobe** (magic item) — orb displayed in the Lord of Lance Rock's lair. Originally held by Land Druid, transferred to **Kuutar**.
-- **440 CP, 253 SP, 97 GP** — from the petrified dwarf shrine in the sinkhole dungeon.
-- **6 green agates** (30 GP) — from the petrified dwarf shrine in the sinkhole dungeon.
-- **2 polished moonstones** (100 GP) — from the petrified dwarf shrine in the sinkhole dungeon.
 - **"Reszur"** (blood-stained dagger) — inscribed pommel. From the petrified dwarf shrine. **Held by the Thief.**
 - **4 iron coins from Mirabar** — from the earth priest.
 
@@ -174,8 +191,9 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
 | 1 | January 25, 2026 | Shadows Over Red Larch | [notes](sessions/session-01.md) |
 | 2 | February 15, 2026 | The Lord of Lance Rock | [notes](sessions/session-02.md) |
 | 3 | March 8, 2026 | Beneath the Believers | [notes](sessions/session-03.md) |
+| 4 | March 29, 2026 | Shadows on the Cairn Road | [notes](sessions/session-04.md) |
 
-**Next session:** March 29, 2026
+**Next session:** TBD
 
 ## Dreams & Visions
 
