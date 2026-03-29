@@ -4,7 +4,7 @@
 > **DM:** Toby
 > **Setting:** Forgotten Realms — Dessarin Valley
 > **Edition:** 5e
-> **Schedule:** Dynamic — Next session: March 29, 2026
+> **Schedule:** Dynamic — Next session: April 26, 2026
 > **Format:** In-person
 > **In-Game Time Elapsed:** ~10 days
 > **Moon Phase:** Waning Crescent *(Full Moon ~10 days ago — changes every ~10 days)*
@@ -142,14 +142,14 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
 | HP               | 30      | 30   |
 | Temp HP          | 0       | —    |
 | Hit Dice         | 4d6     | 4d6  |
-| Sorcery Points   | 4       | 4    |
+| Sorcery Points   | 2       | 4    |
 
 #### Spell Slots
 
 | Level | Used | Total |
 |-------|------|-------|
 | 1st   | 0    | 4     |
-| 2nd   | 0    | 3     |
+| 2nd   | 1    | 3     |
 
 #### Currency
 
@@ -193,7 +193,7 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
 | 3 | March 8, 2026 | Beneath the Believers | [notes](sessions/session-03.md) |
 | 4 | March 29, 2026 | Shadows on the Cairn Road | [notes](sessions/session-04.md) |
 
-**Next session:** TBD
+**Next session:** April 26, 2026
 
 ## Dreams & Visions
 

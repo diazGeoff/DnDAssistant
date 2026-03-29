@@ -59,6 +59,14 @@
 - Party approached the **base of Feathergale Spire** — spotted a **bridge** above leading to the tower entrance
 - **No air guards visible** — the Aarakocra's diversion drew the air cult away from the spire
 - Party planning to scale the spire using a **grappling hook** to reach the bridge
+- Spotted a **drawbridge (down) and locked gate** at the bridge level, and a **brass bell** used to announce visitors
+- Found an **open door at the base of the tower** (below the bridge) — the Thief scouted it in stealth
+- The lower entrance is a **stable** housing **vultures**, **griffons**, and **hippogriffs** — the air cult's full aerial cavalry
+- A **secret door** inside the stable contains a **manticore**
+- The Thief entered the stable door (invisible) and spotted a **guard feeding the manticore**
+- **Kuutar** used **Alter Self (Natural Weapons)** — spent 1 2nd-level slot and 2 sorcery points (Quickened Spell)
+- Party engaged the guard: Thief, Kuutar, and two Druids vs. one guard
+- **Guard defeated** — party proceeds up the stairs into the spire
 
 ## Loot
 - **Magic Javelin** — found on the bodies at the shallow graves. Taken by the **Ranger**.
