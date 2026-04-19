@@ -41,6 +41,7 @@
 - At **dawn**, the party spotted a **keep** in the distance (separate structure from Feathergale Spire)
 - Party decided to head to **Feathergale Spire** — confirmed Howling Hatred base, likely holds answers about Rhundorth's missing document and the other diplomats
 - Party arrived in the **Sighing Valley**
+- Crossed a **stream** en route — the crossing was difficult enough to cause **Exhaustion (Level 1)** for the party
 - **Ranger** used stealth to scout ahead — overheard **5 Aarakocra** (bird people) talking about not wanting their home taken by outsiders
 - Ranger dropped stealth and approached — claimed to be lost (failed **Deception check**)
 - Caught lying, the Ranger told the truth — the party is heading to the spire to take on the attackers

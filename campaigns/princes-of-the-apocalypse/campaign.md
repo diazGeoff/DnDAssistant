@@ -4,7 +4,7 @@
 > **DM:** Toby
 > **Setting:** Forgotten Realms — Dessarin Valley
 > **Edition:** 5e
-> **Schedule:** Dynamic — Next session: April 26, 2026
+> **Schedule:** Dynamic — Next session: TBD
 > **Format:** In-person
 > **In-Game Time Elapsed:** ~10 days
 > **Moon Phase:** Waning Crescent *(Full Moon ~10 days ago — changes every ~10 days)*
@@ -54,16 +54,21 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
 - **Beliard** — Town north of Westbridge. Diplomats were last seen here — never arrived at Summit Hall.
 - **Summit Hall** — Destination the diplomats never reached. South of Beliard on the road.
 - **Sighing Valley** — Valley en route to Feathergale Spire. Party passed through here after leaving the Cairn Road.
-- **Feathergale Spire** — Tower in the Sighing Valley. Confirmed **Howling Hatred (air cult)** base — Ranger's detection traced Auran mark here. Knights mounted on flying beasts seen circling the spire.
+- **Feathergale Spire** — Tower in the Sighing Valley. Confirmed **Howling Hatred (air cult)** / **Feathergale Society** base. Party infiltrated and brokered a deal with Lord Commander Thurl Merosska. Stable houses vultures, griffons, and hippogriffs. Aerial cavalry base for the cult. Party has guest standing here.
+- **Sacred Stone Monastery** — Location of the **earth cult** base. Revealed by Thurl Merosska. Target for future investigation.
 
 ### Map Notes
 - **Red Larch (town):** [map](maps/Red_Larch.webp)
-- **Red Larch (sinkhole):** [map](maps/red-larch-sinkhole.svg) — post-earthquake collapse, Session 2
+- **Red Larch (sinkhole):** [map](maps/red-larch-sinkhole.png) — post-earthquake collapse, Session 2
 - **Tomb of Moving Stones:** [map](maps/tomb-of-moving-stones.png) — dungeon beneath Red Larch, 1 sq = 10 ft
 - **Red Larch (surroundings):** [map](maps/Red_larch_surroundings.jpg)
 - **Lance Rock (Necromancer's Cave):** [map](maps/necromancers-cave.webp)
 - **Dessarin Valley (regional):** [map](maps/Dessarin_Valley-5e.webp) — 1 hex = 4 miles
 - **Sighing Valley:** [map](maps/sighing-valley.jpg) — Feathergale Spire, Howling Plateau, key locations
+- **Feathergale Spire (Stable Level):** [map](maps/feathergale-spire-stable-level.jpg) — ground floor stable, vultures/griffons/hippogriffs, manticore secret door
+- **Feathergale Spire (Ground Level):** [map](maps/feathergale-spire-ground-level.jpg) — player-facing ground floor map
+- **Feathergale Spire (Level 2):** [map](maps/feathergale-spire-level-two.jpg) — player-facing second floor map
+- **Feathergale Spire (Top Level / Rooftop):** [map](maps/feathergale-spire-top-level.jpg) — rooftop observation deck with artificial grass lawn and compass stones
 
 ### Factions
 - **The Believers** — Local cult beneath Red Larch, run by town elders. Fear the **Delvers** — stone monoliths that are living things. If the Delvers move, the Believers believe disaster will follow. Use punishments (pinning people to stone tables) as appeasement. Exploited by the larger earth cult. **All jailed; some questioned and sent to Waterdeep. Known members: Ilmeth Waelver, Baragustas, Rotarharterhand (the boy's father), Grund.**
@@ -90,6 +95,7 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
 - **Kwikar** — Aarakocra, female, barn owl. Member of Kwal's group.
 - **Zeeles** — Aarakocra. Member of Kwal's group.
 - **Rharra** — Aarakocra. Member of Kwal's group.
+- **Thurl Merosska** — **Lord Commander of the Feathergale Society**. Former **Waterdeep griffon rider**. Met the party on the rooftop of Feathergale Spire.
 
 ## Character States
 
@@ -142,14 +148,14 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
 | HP               | 30      | 30   |
 | Temp HP          | 0       | —    |
 | Hit Dice         | 4d6     | 4d6  |
-| Sorcery Points   | 2       | 4    |
+| Sorcery Points   | 4       | 4    |
 
 #### Spell Slots
 
 | Level | Used | Total |
 |-------|------|-------|
 | 1st   | 0    | 4     |
-| 2nd   | 1    | 3     |
+| 2nd   | 0    | 3     |
 
 #### Currency
 
@@ -173,6 +179,7 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
 
 ### Loot
 - **Magic Javelin** (magic item) — found on a body at the shallow graves (barren hilltop, Cairn Road). **Held by the Ranger.**
+- **Manticore Tail Spikes x12** — looted from the two manticores killed in the Sighing Valley. **Held by Kuutar.** Converted for use as crossbow bolts — deal poison damage.
 - **Wand of Magic Missiles** (magic item) — dropped by the Lord of Lance Rock. **Held by the Land Druid.**
 - **Driftglobe** (magic item) — orb displayed in the Lord of Lance Rock's lair. Originally held by Land Druid, transferred to **Kuutar**.
 - **"Reszur"** (blood-stained dagger) — inscribed pommel. From the petrified dwarf shrine. **Held by the Thief.**
@@ -180,6 +187,8 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
 
 ### Purchases
 - **Wagon and 2 donkeys** — bought in Red Larch after clearing Lance Rock.
+- **Ring with Emblem of the Waterdeep Griffon Rider** — reward from Thurl Merosska for the manticore cull. **Held by Dream Druid** (pending conversion and split with party).
+- **5 PP, 17 GP** — reward from Thurl Merosska for the manticore cull. **Held by Dream Druid** (pending conversion and split with party).
 
 ### Quest Items / Clues
 - **Eye-shaped symbol/display** — held by the party druid for investigation. Found in the back room of Lance Rock.
@@ -192,8 +201,9 @@ Official D&D 5th Edition adventure. The Dessarin Valley is threatened by four cu
 | 2 | February 15, 2026 | The Lord of Lance Rock | [notes](sessions/session-02.md) |
 | 3 | March 8, 2026 | Beneath the Believers | [notes](sessions/session-03.md) |
 | 4 | March 29, 2026 | Shadows on the Cairn Road | [notes](sessions/session-04.md) |
+| 5 | April 19, 2026 | Into Feathergale Spire | [notes](sessions/session-05.md) |
 
-**Next session:** April 26, 2026
+**Next session:** TBD
 
 ## Dreams & Visions
 
